@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css';
@@ -17,6 +17,12 @@ function Navbar() {
             setButton(true)
         }
     };
+
+
+    //so the button doesn' appear when you refresh page
+    useEffect(() => {
+        showButton();
+    }, []);
 
     window.addEventListener('resize',  showButton);
 
@@ -41,19 +47,25 @@ function Navbar() {
 
                         <li className='nav-item'>
                             <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                                Services
+                                Projects
                             </Link>
                         </li>
 
                         <li className='nav-item'>
                             <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
-                                Products
+                                CV
                             </Link>
                         </li>
 
                         <li className='nav-item'>
                             <Link to='/sign-up' className='nav-links' onClick={closeMobileMenu}>
-                                Sign Up
+                                About
+                            </Link>
+                        </li>
+
+                        <li className='nav-item'>
+                            <Link to='/sign-up' className='nav-links' onClick={closeMobileMenu}>
+                                Contact
                             </Link>
                         </li>
 
