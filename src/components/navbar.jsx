@@ -31,7 +31,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className='navbar-container'>
-                    <Link to='/' className='navbar-logo'>
+                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                         Portfolio <i className="fab fa-typo3"></i>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
@@ -46,25 +46,25 @@ function Navbar() {
                         </li>
 
                         <li className='nav-item'>
-                            <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
                                 Projects
                             </Link>
                         </li>
 
                         <li className='nav-item'>
-                            <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/cv' className='nav-links' onClick={closeMobileMenu}>
                                 CV
                             </Link>
                         </li>
 
                         <li className='nav-item'>
-                            <Link to='/sign-up' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
                                 About
                             </Link>
                         </li>
 
                         <li className='nav-item'>
-                            <Link to='/sign-up' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
                                 Contact
                             </Link>
                         </li>
