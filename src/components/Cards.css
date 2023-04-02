@@ -11,7 +11,6 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 1120px;
     width: 90%;
     margin: 0 auto;
   }
@@ -19,6 +18,7 @@
   .cards__wrapper {
     position: relative;
     margin: 50px 0 45px;
+    width: 80%;
   }
   
   .cards__items {
@@ -31,8 +31,6 @@
     flex: 1;
     margin: 0 2rem;
     border-radius: 10px;
-    height: 400px;
-    width: 500px;
   }
   
   .cards__item__link {
