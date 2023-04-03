@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Wat me to contact you?
+          Want me to contact you?
         </p>
         <p className='footer-subscription-text'>
           Send me your email and I'll contact you shortly!

@@ -1,8 +1,14 @@
 import React from "react";
-import'../../App.css';
+import '../../App.css';
+import CVSection from '../CVSection'
+import Footer from '../Footer';
 
 export default function Cv() {
-    return <h1 className="cv">
-        CV
-    </h1>;
+    return (
+    
+    <>
+        <CVSection/>
+        <Footer/>
+    </>
+    );
 }
