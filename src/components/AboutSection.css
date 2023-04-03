@@ -1,0 +1,27 @@
+.about-container {
+    background: url('../../public/images/img-home.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    /*centers in x and y*/
+    justify-content: center;
+
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+.about-container>h1 {
+    color: white;
+    font-size: 80px;
+    margin-top: -300px;
+}
+
+.about-container>p {
+    margin-top: 8px;
+    color: white;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

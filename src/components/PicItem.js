@@ -1,5 +1,5 @@
 import React from 'react';
-import './BigPic.css';
+import './PicItem.css';
 
 function PicItem(props) {
     return (

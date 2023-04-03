@@ -5,10 +5,9 @@ import Footer from '../Footer';
 
 export default function Cv() {
     return (
-    
-    <>
-        <CVSection/>
-        <Footer/>
-    </>
+        <>
+            <CVSection />
+            <Footer />
+        </>
     );
 }

@@ -29,15 +29,15 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Me</h2>
-            <Link to='/sign-up'>Filip Pennsäter</Link>
-            <Link to='/'>Sweden, Skåne, Lund</Link>
-            <Link to='/'>Junior dev</Link>
+            <p3>Filip Pennsäter</p3>
+            <p3>Sweden, Skåne, Lund</p3>
+            <p3>Junior dev</p3>
             
           </div>
           <div class='footer-link-items'>
             <h2>Contact</h2>
-            <Link to='/'>0700907172</Link>
-            <Link to='/'>filip.pennsater@gmail.com</Link>
+            <p3>0700907172</p3>
+            <p3>filip.pennsater@gmail.com</p3>
           </div>
         </div>
         <div className='footer-link-wrapper'>
@@ -60,7 +60,7 @@ function Footer() {
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               Portfolio
-              <i class='fab fa-typo3' />
+              <i class='fas fa-book' />
             </Link>
           </div>
           <small class='website-rights'>© 2023</small>
