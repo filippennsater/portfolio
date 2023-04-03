@@ -6,8 +6,10 @@
   }
   
   .home,
-  .services,
-  .products,
+  .projects,
+  .cv,
+  .about,
+  .contact,
   .sign-up {
     display: flex;
     height: 90vh;
@@ -16,16 +18,7 @@
     font-size: 3rem;
   }
   
-  .services {
-    background-image: url('../public/images/img-2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .products {
+  .projects {
     background-image: url('../public/images/img-1.jpg');
     background-position: center;
     background-size: fill;
@@ -34,8 +27,35 @@
     font-size: 100px;
   }
   
+  .about {
+    background-image: url('../public/images/img-2.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .contact {
+    background-image: url('../public/images/img-3.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .cv {
+    background-image: url('../public/images/img-4.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
   .sign-up {
-    background-image: url('../public/images/img-8.jpg');
+    background-image: url('../public/images/img-5.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
