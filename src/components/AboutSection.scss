@@ -29,7 +29,7 @@
 .avatar {
     width: 150px;
     height: 150px;
-    margin-top: 2%;
+    margin-top: 30px;
     box-sizing: border-box;
     border: 5px white solid;
     border-radius: 50%;
@@ -40,8 +40,7 @@
 
     animation: blob 10s ease-in-out infinite;
 }
-
-  
+ 
   @keyframes blob {
     0%, 100% {
       border-radius:65% 100% 80% 100%
@@ -69,7 +68,7 @@
 
   .about-text-container{
     background-color: red;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 70%;
     height: 100%;
     display: flex;
@@ -78,4 +77,3 @@
     align-items: center;
   }
 
-  

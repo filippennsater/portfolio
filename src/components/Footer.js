@@ -31,7 +31,7 @@ function Footer() {
             <h2>About Me</h2>
             <p3>Filip Pennsäter</p3>
             <p3>Sweden, Skåne, Lund</p3>
-            <p3>Junior dev</p3>
+            <p3>Junior developer</p3>
             
           </div>
           <div class='footer-link-items'>
