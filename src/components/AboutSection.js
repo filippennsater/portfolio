@@ -6,18 +6,15 @@ function AboutSection() {
     return (
         <div className='about-container'>
 
-            <div className='containerr'>
+            <div className='about-me-container'>
 
-                <div class="avatar">
-                    
-                
+                <figure class="avatar" />
+
+                <div className='about-text-container'>
+
                 </div>
-                
+
             </div>
-
-
-
-
 
         </div>
     )
