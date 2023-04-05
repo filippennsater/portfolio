@@ -35,4 +35,37 @@ video {
 }
 
 
+.download-wrapper{
+    background-color: none;
+    width: 10%;
+    height: 20%;
+    position: fixed;
+    z-index: 3;
+    margin-top: 100px;
+    margin-right: 70%;
+    align-items: center;
+}
 
+
+.btnD{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 138px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+
+
+
+.btnD:hover{
+    background-color: rgb(167, 167, 167);
+    cursor: pointer;
+
+}
+
+.btnD:active{
+   /* background-color: rgb(68, 68, 68);*/
+    
+}

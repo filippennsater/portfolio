@@ -10,6 +10,13 @@ function CVSection() {
         
 
             <div className='pics__container'>
+
+                <div className='download-wrapper'>
+
+                <button className='btnD'><a href='CV.pdf' download><i class="fa fa-download"></i> Download CV</a></button>
+                    
+                </div>
+
                 <div className='pics__wrapper'>
 
                     <ul className='pics__items'>
