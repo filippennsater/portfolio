@@ -7,7 +7,7 @@ video {
 }
 
 .cv-container {
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(105, 105, 105);
     height: flex;
     width: 100%;
     display: flex;
@@ -61,7 +61,7 @@ video {
 
 
 .btnD:hover{
-    background-color: rgb(167, 167, 167);
+    background-color: rgb(204, 204, 204);
     cursor: pointer;
 
 }

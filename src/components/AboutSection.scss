@@ -1,5 +1,6 @@
 .about-container {
-    background: url('../../public/images/img-home.jpg') center center/cover no-repeat;
+    /*background: url('../../public/images/img-home.jpg') center center/cover no-repeat;*/
+    background-color: rgb(105, 105, 105);
     height: 100vh;
     width: 100%;
     display: flex;
@@ -9,7 +10,7 @@
     justify-content: center;
 
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    /*box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);*/
     object-fit: contain;
 }
 
@@ -57,7 +58,7 @@
   }
 
 .about-me-container {
-    background-color: blue;
+    background-color: rgb(105, 105, 105);
     width: 80%;
     height: 100%;
     display: flex;
@@ -67,13 +68,21 @@
   }
 
   .about-text-container{
-    background-color: red;
-    margin-top: 30px;
-    width: 70%;
-    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2%;
+    width: 50%;
+    height: 76%;
     display: flex;
     flex-direction: column;
     justify-content: top;
     align-items: center;
+    padding: 20px;
+    border-radius: 10px;
   }
 
+  p4 {
+    margin-top: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
