@@ -11,7 +11,7 @@ function Footer() {
           Want me to contact you?
         </p>
         <p className='footer-subscription-text'>
-          Send me your email and I'll contact you shortly!
+          Send me your email and I'll reach out to you shortly!
         </p>
         <div className='input-areas'>
           <form>

@@ -4,6 +4,11 @@ import './CVSection.css';
 import PicItem from './PicItem';
 
 function CVSection() {
+
+    const dStyle = {
+        color: 'black'
+    };
+
     return (
         <div className='cv-container'>
             <video src='../..//videos/video-1.mp4' autoPlay loop muted />
@@ -13,7 +18,7 @@ function CVSection() {
 
                 <div className='download-wrapper'>
 
-                <button className='btnD'><a href='CV.pdf' download><i class="fa fa-download"></i> Download CV</a></button>
+                <button className='btnD'><a style={dStyle} href='CV.pdf' download><i class="fa fa-download"></i> Download CV</a></button>
                     
                 </div>
 

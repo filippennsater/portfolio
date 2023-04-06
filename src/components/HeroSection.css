@@ -6,6 +6,48 @@ video {
     z-index: -1;
 }
 
+.selfie-container{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    /*centers in x and y*/
+    justify-content: center;
+
+    align-items: center;
+    margin-top: 20px;
+}
+.home-self {
+    position: absolute;
+    margin-top: -950px;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 5px white solid;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    
+    background: url('../../public/images/self.jpg') center center/cover no-repeat;
+
+    animation: bloob 10s ease-in-out infinite;
+}
+
+@keyframes bloob {
+    0%, 100% {
+      border-radius:65% 100% 80% 100%
+    }
+    25% {
+      border-radius:100% 80% 100% 65%
+    }
+    50% {
+      border-radius:80% 100% 65% 100%
+    }
+    75% {
+      border-radius:100% 65% 100% 80%
+    }
+  }
+  
+
 .hero-container {
     /*background: url('../../public/images/img-home.jpg') center center/cover no-repeat;*/
     height: 100vh;

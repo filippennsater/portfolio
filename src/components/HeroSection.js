@@ -7,6 +7,11 @@ function HeroSection() {
     return (
         <div className='hero-container'>
             <video src='../..//videos/video-1.mp4' autoPlay loop muted />
+
+            <div className='selfie-container'>
+                <figure class="home-self"/>
+            </div>
+
             <h1>WELCOME TO MY PORTFOLIO!</h1>
             <p>So... who am I?</p>
             <div className='hero-btns'>
