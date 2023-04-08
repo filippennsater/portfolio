@@ -25,7 +25,7 @@ I grew up in a family of 5 and we moved to Skåne from Stockholm when I was 7 ye
 At the age of 14 we moved into the BIG CITY of Lund and I studied at the middle-school Järnåkra and later on the high-school of Polhem where I studied the tech-program.<br/><br/>
 
 My father who’s been my biggest inspiration has always had his software and consulting-company which have been a good guide from when I picked up my interest in programming.
-He’s let me take part in some of the development in his products and given me a good grasp of the workflow in development.<br/><br/>
+He let me take part in some of the development in his products and it has given me a good grasp of the workflow in development.<br/><br/>
 
 I’m currently passionately trying to become a really good full-stack developer where I mostly do web-applications. But the best thing about this world of code is…that there is always something more to learn and an endless universe of inspiration and opportunities.<br/><br/>
 

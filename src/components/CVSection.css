@@ -29,6 +29,7 @@ video {
 
 .cv-container>p {
     margin-top: 8px;
+    
     color: white;
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -56,6 +57,7 @@ video {
     outline: none;
     border: none;
     font-size: 18px;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
 }
 
 
