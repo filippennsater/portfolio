@@ -1,15 +1,6 @@
-video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-}
-
-
-.contact-container {
-    /*background: url('../../public/images/img-home.jpg') center center/cover no-repeat;*/
-    height: 40vh;
+.info-container {
+    background-color: white;    
+    height: 55vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -22,15 +13,14 @@ video {
     object-fit: contain;
 }
 
-
-.contact-container>h1 {
-    color: white;
+.info-container>h1 {
+    color: rgb(0, 0, 0);
     font-size: 80px;
 }
 
-.contact-container>p {
+.info-container>p {
     margin-top: 8px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
