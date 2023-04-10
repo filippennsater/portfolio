@@ -1,5 +1,5 @@
 .info-container {
-    background-color: white;    
+    background-color: rgb(255, 255, 255);    
     height: 55vh;
     width: 100%;
     display: flex;
@@ -22,5 +22,67 @@
     margin-top: 8px;
     color: rgb(0, 0, 0);
     font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.infoboxes-container {
+    background-color: none;    
+    height: 55vh;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    object-fit: contain;
+}
+
+.infobox {
+    width:250px;
+    height: 250px;
+    background-color: none;    
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    margin: 20px auto;
+    position: relative;
+    float: right;
+}
+
+.textbox {
+    width:100px;
+    height: 33%;
+    background-color: none;    
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    position: relative;
+    float: right;
+}
+
+hc {
+    font-weight: 900;
+    margin-top: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+iconPhone {
+    margin-top: 8px;
+    color: rgb(0, 119, 26);
+    font-size: 60px;
+}
+
+iconMail {
+    margin-top: 8px;
+    color: rgb(7, 0, 105);
+    font-size: 60px;
+}
+
+hc2 {
+    font-weight: 500;
+    margin-top: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
