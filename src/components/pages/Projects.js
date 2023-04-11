@@ -1,8 +1,13 @@
-import React from "react";
-import'../../App.css';
+import React from 'react'
+import '../../App.css'
+import ProjectSection from '../ProjectSection';
+import Footer from '../Footer';
 
-export default function Projects() {
-    return <h1 className="projects">
-        PROJECTS
-    </h1>;
+export default function Projects (){
+    return (
+    <>
+      <ProjectSection/>
+      <Footer/>
+    </>
+    );
 }
