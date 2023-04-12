@@ -16,6 +16,9 @@ function ProjectSection() {
                         <div className='information'>
                             <h1>yeeeeeeeeeeiiiiiii</h1>
                             <div className='info_figures'></div>
+                            <i class='fa-brands fa-square-js'/>
+                            <i class='fas fa-book' />
+                            <i class='fas fa-book' />
                         </div>
                         
                     </ul>
