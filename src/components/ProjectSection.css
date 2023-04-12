@@ -121,6 +121,7 @@
 
   .information {
     display: flex;
+    margin: 0 2rem;
     flex-flow: column;
     width: 50%;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
@@ -133,7 +134,7 @@
   }
 
   .info_figures{
-    padding: 4rem;
+    padding: 1rem;
     background: #976767;
     align-items: left;
     margin-top: 60%;

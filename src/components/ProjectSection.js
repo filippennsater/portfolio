@@ -27,6 +27,19 @@ function ProjectSection() {
 
                     <ul className='cards__items'>
                         <CardItem src='images/img-Apiano.png' text='The Amazing Piano' label='Small project' path='/projects' />
+
+
+                        <div className='information'>
+                            <h1>yeeeeeeeeeeiiiiiii</h1>
+                            <div className='info_figures'>
+                                <i class='fa-brands fa-square-js' />
+                                <i class='fas fa-book' />
+                                <i class='fas fa-book' />
+                            </div>
+
+                        </div>
+
+
                     </ul>
 
                 </div>
