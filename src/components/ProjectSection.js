@@ -11,7 +11,13 @@ function ProjectSection() {
 
                     <ul className='cards__items'>
                         <CardItem src='images/img-8ball.png' text='Magic 8-ball' label='Small project' path='/projects' />
-                        <h1>yeeeeeeeeeeeeeeboiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii</h1>
+
+
+                        <div className='information'>
+                            <h1>yeeeeeeeeeeiiiiiii</h1>
+                            <div className='info_figures'></div>
+                        </div>
+                        
                     </ul>
 
                     <ul className='cards__items'>
