@@ -14,7 +14,7 @@ function ProjectSection() {
 
 
                         <div className='information'>
-                            <h1>yeeeeeeeeeeiiiiiii</h1>
+                            <h1>Magic 8-ball</h1>
                             <div className='info_figures'>
                                 <i class='fa-brands fa-square-js' />
                                 <i class='fas fa-book' />
@@ -30,7 +30,7 @@ function ProjectSection() {
 
 
                         <div className='information'>
-                            <h1>yeeeeeeeeeeiiiiiii</h1>
+                            <h1>The Amazing Piano</h1>
                             <div className='info_figures'>
                                 <i class='fa-brands square-js' />
                                 <i class='fas fa-book' />
