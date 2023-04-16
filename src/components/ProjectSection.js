@@ -31,6 +31,7 @@ function ProjectSection() {
 
                         <div className='information'>
                             <h1>The Amazing Piano</h1>
+                            <p>A small website with an interactive piano</p>
                             <div className='info_figures'>
                                 <i class='fa-brands square-js' />
                                 <i class='fas fa-book' />
