@@ -16,7 +16,7 @@ function ProjectSection() {
                         <div className='information'>
                             <h1>Magic 8-ball</h1>
                             <ul>
-                                <ptext>A small website radnom answers<br/></ptext>
+                                <ptext>A small website random answers<br/></ptext>
                                 <ptext>Focus on usage of styling and javascripts<br/></ptext>
                             </ul>
 
