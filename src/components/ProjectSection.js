@@ -16,8 +16,8 @@ function ProjectSection() {
                         <div className='information'>
                             <h1>Magic 8-ball</h1>
                             <ul>
-                                <ptext>A small website random answers<br/></ptext>
-                                <ptext>Focus on usage of styling and javascripts<br/></ptext>
+                                <ptext><br/><br/>&emsp;A small website that generate random answers<br/></ptext>
+                                <ptext><br/>&emsp;Focus on usage of styling and javascripts<br/></ptext>
                             </ul>
 
                             <div className='info_figures'>
@@ -37,8 +37,8 @@ function ProjectSection() {
                         <div className='information'>
                             <h1>The Amazing Piano</h1>
                             <ul>
-                                <ptext>A small website with an interactive piano<br/></ptext>
-                                <ptext>Focus on usage of styling and javascripts<br/></ptext>
+                                <ptext><br/><br/>&emsp;A small website with an interactive piano<br/></ptext>
+                                <ptext><br/>&emsp;Focus on usage of styling and javascripts<br/></ptext>
                             </ul>
                             
                             <div className='info_figures'>
