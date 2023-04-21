@@ -123,6 +123,7 @@
     display: flex;
     margin: 0 2rem;
     flex-flow: column;
+    height: 550px;
     width: 50%;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -137,7 +138,7 @@
     padding: 1rem;
     background: #976767;
     align-items: left;
-    margin-top: 60%;
+    margin-top: 15%;
     width: 100%;
   }
 
