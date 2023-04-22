@@ -21,9 +21,10 @@ function ProjectSection() {
                             </ul>
 
                             <div className='info_figures'>
+                               <div className='figures'><i class='fas fa-book' /></div>
                                 <i class='fa-brands fa-square-js' />
-                                <i class='fas fa-book' />
-                                <i class='fas fa-book' />
+                                <div className='figures'><i class='fas fa-book' /></div>
+
                             </div>
 
                         </div>

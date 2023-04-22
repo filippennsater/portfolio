@@ -135,11 +135,24 @@
   }
 
   .info_figures{
+    display: grid;
     padding: 1rem;
     background: #976767;
-    align-items: left;
+    justify-content: center;
     margin-top: 15%;
     width: 100%;
+  }
+
+  .figures{
+    background: #bb0d0d;
+    align-items: center;
+    color: #2c0aeb;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    width:20px;
+    height: 100%;
   }
 
   ptext{
