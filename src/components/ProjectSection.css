@@ -124,7 +124,7 @@
     margin: 0 2rem;
     flex-flow: column;
     height: 550px;
-    width: 50%;
+    max-width: calc((100%) - 60px);
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -135,24 +135,29 @@
   }
 
   .info_figures{
+    display: flex;
     display: grid;
     padding: 1rem;
     background: #976767;
     justify-content: center;
     margin-top: 15%;
     width: 100%;
+    flex-flow: row;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
   }
 
   .figures{
+    display: flex;
     background: #bb0d0d;
     align-items: center;
     color: #2c0aeb;
-    display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
     width:20px;
     height: 100%;
+
   }
 
   ptext{
