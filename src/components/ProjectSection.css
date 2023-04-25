@@ -1,10 +1,24 @@
-.cards {
+.project-container{
+  background-color: rgb(175, 175, 175);
+  width: 100%;
+  height: 100%;
+}
+.cards2 {
     padding: 4rem;
-    background: #fff;
+    background: none;
   }
   
   h1 {
+    color: rgb(0, 0, 0);
     text-align: center;
+    font-size: 50px;
+  }
+
+  h6 {
+    align-self: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 50px;
   }
   
   .cards__container {
@@ -27,6 +41,7 @@
   }
   
   .cards__item {
+    background-color: white;
     display: flex;
     flex: 1;
     margin: 0 2rem;
@@ -120,6 +135,7 @@
 
 
   .information {
+    background-color: white;
     display: flex;
     display: inline-block;
     margin: 0 2rem;
