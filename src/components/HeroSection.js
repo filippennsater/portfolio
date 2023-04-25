@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
+import { Link } from 'react-router-dom';
 
 function HeroSection() {
     return (
@@ -9,19 +10,29 @@ function HeroSection() {
             <video src='../..//videos/video-1.mp4' autoPlay loop muted />
 
             <div className='selfie-container'>
-                <figure class="home-self"/>
+                <figure class="home-self" />
             </div>
 
             <h1>WELCOME TO MY PORTFOLIO!</h1>
             <p>So... who am I?</p>
             <div className='hero-btns'>
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
-                    Debscription
-                </Button>
+                <Link to='/about'>  <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
 
-                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
-                    WATCH TRAILER <i className='far fa-play-circle' />
-                </Button>
+                    Debscription
+
+                </Button></Link>
+
+
+
+                <Link to='/contact'>
+                    <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
+                        Contact me <i class="fa-regular fa-address-book"></i>
+                    </Button>
+                </Link>
+            </div>
+
+            <div className='arrow-container'>
+                <i class="fa-solid fa-arrow-down fa-bounce"></i>
             </div>
         </div>
     )

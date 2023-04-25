@@ -15,9 +15,9 @@ function Cards () {
                     </ul>
 
                     <ul className='cards__items'>
-                        <CardItem src='images/img-3.jpg' text='Cool image huh?' label='Bigger Project' path='/projects' />
-                        <CardItem src='images/img-4.jpg' text='Cool image huh?' label='Bigger Project' path='/projects' />
-                        <CardItem src='images/img-5.jpg' text='Cool image huh?' label='Bigger Project' path='/projects' />
+                        <CardItem src='images/img-3.jpg' text='Coming soon' label='Bigger Project' path='/projects' />
+                        <CardItem src='images/img-4.jpg' text='Coming soon' label='Bigger Project' path='/projects' />
+                        <CardItem src='images/img-5.jpg' text='Coming soon' label='Bigger Project' path='/projects' />
                     </ul>
 
                 </div>

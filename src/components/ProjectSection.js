@@ -14,16 +14,26 @@ function ProjectSection() {
 
 
                         <div className='information'>
-                            <h1>Magic 8-ball</h1>
+                            <h1><br />Magic 8-ball</h1>
                             <ul>
-                                <ptext><br/><br/>&emsp;A small website that generate random answers<br/></ptext>
-                                <ptext><br/>&emsp;Focus on usage of styling and javascripts<br/></ptext>
+                                <ptext><br /><br />&emsp;A small website that generate random answers<br /></ptext>
+                                <ptext><br />&emsp;Focus on usage of styling and javascripts<br /></ptext>
+                                <ptext><br />&emsp;Hosted through google-firebase <i class="fa-solid fa-fire"></i><br /></ptext>
                             </ul>
 
                             <div className='info_figures'>
-                               <div className='figures'><i class='fas fa-book' /></div>
-                                <i class='fa-brands fa-square-js' />
-                                <div className='figures'><i class='fas fa-book' /></div>
+
+                                <div className='figures'><i class="fa-brands fa-html5"></i></div>
+
+                                <div className='figures'><i class='fa-brands fa-square-js'></i></div>
+
+                                <div className='figures'><i class="fa-brands fa-css3"></i></div>
+
+                                <div className='figures'><i class="fa-brands fa-git"></i></div>
+
+                                <div className='figures'></div>
+
+                                <div className='figures'></div>
 
                             </div>
 
@@ -36,16 +46,26 @@ function ProjectSection() {
 
 
                         <div className='information'>
-                            <h1>The Amazing Piano</h1>
+                            <h1><br />The Amazing Piano</h1>
                             <ul>
-                                <ptext><br/><br/>&emsp;A small website with an interactive piano<br/></ptext>
-                                <ptext><br/>&emsp;Focus on usage of styling and javascripts<br/></ptext>
+                                <ptext><br /><br />&emsp;A small website with an interactive piano (pc only)<br /></ptext>
+                                <ptext><br />&emsp;Focus on usage of styling and javascripts<br /></ptext>
+                                <ptext><br />&emsp;Hosted through google-firebase <i class="fa-solid fa-fire"></i><br /></ptext>
                             </ul>
-                            
+
                             <div className='info_figures'>
-                                <i class='fa-brands square-js' />
-                                <i class='fas fa-book' />
-                                <i class='fas fa-book' />
+
+                                <div className='figures'><i class="fa-brands fa-html5"></i></div>
+
+                                <div className='figures'><i class='fa-brands fa-square-js'></i></div>
+
+                                <div className='figures'><i class="fa-brands fa-css3"></i></div>
+
+                                <div className='figures'><i class="fa-brands fa-git"></i></div>
+
+                                <div className='figures'></div>
+
+                                <div className='figures'></div>
                             </div>
 
                         </div>

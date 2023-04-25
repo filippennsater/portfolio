@@ -71,7 +71,7 @@ function Navbar() {
 
                     </ul>
 
-                    {button && <Button buttonStyle='btn--outline'>toggle sound</Button>}
+                    {button && <Button buttonStyle='btn--outline'>Darkmode</Button>}
 
                 </div>
             </nav>

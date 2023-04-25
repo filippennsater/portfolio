@@ -6,15 +6,28 @@ video {
     z-index: -1;
 }
 
-.selfie-container{
+.arrow-container{
+    z-index: 5;
+    color: white;
+    font-size: 60px;
     display: flex;
-    flex-direction: column;
-    background-color: blue;
+    background-color: none;
     /*centers in x and y*/
     justify-content: center;
 
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10%;
+}
+
+.selfie-container{
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    /*centers in x and y*/
+    justify-content: center;
+
+    align-items: center;
+    margin-top: 10%;
 }
 .home-self {
     position: absolute;

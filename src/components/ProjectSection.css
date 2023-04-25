@@ -121,9 +121,10 @@
 
   .information {
     display: flex;
+    display: inline-block;
     margin: 0 2rem;
     flex-flow: column;
-    height: 550px;
+    min-width: 45%;
     max-width: calc((100%) - 60px);
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -132,13 +133,14 @@
     overflow: hidden;
     text-decoration: none;
     text-align: left;
+
   }
 
   .info_figures{
     display: flex;
     display: grid;
     padding: 1rem;
-    background: #976767;
+    background: none;
     justify-content: center;
     margin-top: 15%;
     width: 100%;
@@ -149,19 +151,20 @@
 
   .figures{
     display: flex;
-    background: #bb0d0d;
+    background: none;
     align-items: center;
-    color: #2c0aeb;
+    color: #000000;
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
     width:20px;
     height: 100%;
-
+    font-size: 50px;
+    margin-right: 30px;
   }
 
   ptext{
-    font-size: 30px;
+    font-size: 28px;
     padding: 40px;
 
 
