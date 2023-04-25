@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css';
 
+
 function Navbar() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
@@ -71,7 +72,7 @@ function Navbar() {
 
                     </ul>
 
-                    {button && <Button buttonStyle='btn--outline'>Darkmode</Button>}
+                    {button && <Button buttonStyle='btn--outline' onpointerdown={null} >Darkmode</Button>}
 
                 </div>
             </nav>

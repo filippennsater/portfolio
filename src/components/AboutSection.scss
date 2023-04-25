@@ -1,6 +1,6 @@
 .about-container {
     /*background: url('../../public/images/img-home.jpg') center center/cover no-repeat;*/
-    background-color: rgb(105, 105, 105);
+    background-color: rgb(255, 255, 255);
     height: 100vh;
     width: 100%;
     display: flex;
@@ -13,6 +13,7 @@
     /*box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);*/
     object-fit: contain;
 }
+
 
 .about-container>h1 {
     color: white;
@@ -58,7 +59,7 @@
   }
 
 .about-me-container {
-    background-color: rgb(105, 105, 105);
+    background-color: rgb(255, 255, 255);
     width: 80%;
     height: 100%;
     display: flex;
