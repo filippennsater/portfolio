@@ -29,11 +29,18 @@
     height: 55vh;
     width: 50%;
     display: flex;
-    flex-direction: row;
+    display: grid;
 
     align-items: center;
-    object-fit: contain;
+    justify-content: center;
+    grid-template-columns: repeat(5, auto);
+    grid-row-gap: 1000px;
 }
+
+.list_boxes {
+    margin-bottom: 50px;
+    list-style: none;
+  }
 
 .infobox {
     width:250px;
@@ -42,9 +49,9 @@
     display: flex;
     flex-flow:column;
     align-items: center;
-    margin: 20px auto;
     position: relative;
-    float: right;
+    float: left;
+    margin:50px;
 }
 
 .textbox {

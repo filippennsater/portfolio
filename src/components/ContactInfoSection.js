@@ -9,41 +9,43 @@ function ContactInfoSection() {
 
             <div className='infoboxes-container'>
 
-                <div className='infobox'>
+                <ul className='list_boxes'>
 
-                    <div className='textbox'>
-                        <hc>Phone</hc>
+                    <div className='infobox'>
+
+                        <div className='textbox'>
+                            <hc>Phone</hc>
+                        </div>
+
+                        <iconPhone className='textbox'>
+                            <i className="fas fa-phone"></i>
+                        </iconPhone>
+
+                        <div className='textbox'>
+                            <hc2>0700907172</hc2>
+                        </div>
+
                     </div>
 
-                    <iconPhone className='textbox'>
-                    <i className="fas fa-phone"></i>
-                    </iconPhone>
+                    <div className='infobox'>
 
-                    <div className='textbox'>
-                        <hc2>0700907172</hc2>
+                        <div className='textbox'>
+                            <hc>Email</hc>
+                        </div>
+
+                        <iconMail className='textbox'>
+                            <i className="fas fa-envelope"></i>
+                        </iconMail>
+
+                        <div className='textbox'>
+                            <hc2>filip.pennsater@gmail.com</hc2>
+                        </div>
+
                     </div>
 
-                </div>
-
-                <div className='infobox'>
-
-                <div className='textbox'>
-                        <hc>Email</hc>
-                    </div>
-
-                    <iconMail className='textbox'>
-                    <i className="fas fa-envelope"></i>
-                    </iconMail>
-
-                    <div className='textbox'>
-                        <hc2>filip.pennsater@gmail.com</hc2>
-                    </div>
-
-                </div>
-
-              
 
 
+                </ul>
 
 
 
