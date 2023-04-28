@@ -72,7 +72,7 @@
     background-color: rgb(255, 255, 255);
     margin-top: 2%;
     width: 50%;
-    height: 76%;
+    height: flex;
     display: flex;
     flex-direction: column;
     justify-content: top;
@@ -85,8 +85,8 @@
   }
 
   p4 {
-    margin-top: 8px;
     color: rgb(0, 0, 0);
     font-size: 0.85vw;
+    line-height: 1vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }

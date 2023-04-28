@@ -5,7 +5,7 @@ import './Cards.css';
 function Cards () {
     return (
         <div className='cards'>
-            <h1>Some of my projects <i className="fas fa-laptop-code"></i></h1>
+            <h1><br />Some of my projects <i className="fas fa-laptop-code"></i></h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
 
@@ -16,8 +16,8 @@ function Cards () {
 
                     <ul className='cards__items'>
                         <CardItem src='images/img-portfolio.png' text='My Portfolio' label='Bigger Project' path='/' />
-                        <CardItem src='images/loading.gif' text='Coming soon' label='Bigger Project' path='/projects' />
-                        <CardItem src='images/loading.gif' text='Coming soon' label='Bigger Project' path='/projects' />
+                        <CardItem src='images/loading.gif' text='-Coming soon-' label='Bigger Project' path='/projects' />
+                        <CardItem src='images/loading.gif' text='-Coming soon-' label='Bigger Project' path='/projects' />
                     </ul>
 
                 </div>

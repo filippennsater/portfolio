@@ -15,7 +15,7 @@ function ProjectSection() {
 
 
                             <div className='information'>
-                                <h1><br />Magic 8-ball</h1>
+                                <h4>Magic 8-ball</h4>
                                 <ul>
                                     <ptext><br /><br />&emsp;A small website that generate random answers<br /></ptext>
                                     <ptext><br />&emsp;Focus on usage of styling and javascripts<br /></ptext>
@@ -44,7 +44,7 @@ function ProjectSection() {
 
 
                             <div className='information'>
-                                <h1><br />The Amazing Piano</h1>
+                                <h4>The Amazing Piano</h4>
                                 <ul>
                                     <ptext><br /><br />&emsp;A small website with an interactive piano (pc only)<br /></ptext>
                                     <ptext><br />&emsp;Focus on usage of styling and javascripts<br /></ptext>
@@ -74,10 +74,10 @@ function ProjectSection() {
 
 
                             <div className='information'>
-                                <h1><br />My Portfolio</h1>
+                                <h4>My Portfolio</h4>
                                 <ul>
-                                    <ptext><br /><br />&emsp;My own portfolio that is (overall) compatible with mobile<br /></ptext>
-                                    <ptext><br />&emsp;Focus on fullstack usage with React and animations<br /></ptext>
+                                    <ptext><br /><br />&emsp;My own portfolio that is compatible with phones<br /></ptext>
+                                    <ptext><br />&emsp;Focus on fullstack usage with React<br /></ptext>
                                     <ptext><br />&emsp;Hosted through google-firebase <i class="fa-solid fa-fire"></i><br /></ptext>
                                 </ul>
 
