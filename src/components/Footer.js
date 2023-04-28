@@ -19,7 +19,7 @@ function Footer() {
               className='footer-input'
               name='email'
               type='email'
-              placeholder='Your Email'
+              placeholder='--out of order--'
             />
             <Button buttonStyle='btn--outline'>Send</Button>
           </form>

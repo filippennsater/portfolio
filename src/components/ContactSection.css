@@ -20,17 +20,19 @@ video {
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
+    padding: 10vw;
 }
 
 
 .contact-container>h1 {
     color: white;
-    font-size: 80px;
+    font-size: calc(30px + 2.7vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .contact-container>p {
     margin-top: 8px;
     color: white;
-    font-size: 32px;
+    font-size: calc(12px + 1.5vw);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

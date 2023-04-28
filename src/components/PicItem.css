@@ -18,7 +18,7 @@
   .pics__wrapper {
     position: relative;
     margin: 50px 0 45px;
-    width: 50%;
+    width: calc(225px + 37vw);
   }
   
   .pics__items {

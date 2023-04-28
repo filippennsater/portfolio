@@ -1,6 +1,6 @@
 .info-container {
     background-color: rgb(175, 175, 175);    
-    height: 55vh;
+    min-height: 55vh;
     width: 100%;
     display: flex;
     flex-direction: column;
