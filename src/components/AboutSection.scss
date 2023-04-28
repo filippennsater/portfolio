@@ -1,7 +1,8 @@
 .about-container {
     /*background: url('../../public/images/img-home.jpg') center center/cover no-repeat;*/
     background-color: rgb(175, 175, 175);
-    height: 100vh;
+    height: flex;
+    padding: 2vw;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -31,7 +32,6 @@
 .avatar {
     width: 150px;
     height: 150px;
-    margin-top: 30px;
     box-sizing: border-box;
     border: 5px white solid;
     border-radius: 50%;
