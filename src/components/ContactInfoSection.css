@@ -26,7 +26,7 @@
 
 .infoboxes-container {
     background-color: none;    
-    height: 55vh;
+    min-height: 55vh;
     width: 50%;
     display: flex;
     display: grid;
