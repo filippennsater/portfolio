@@ -70,7 +70,7 @@ function ProjectSection() {
 
 
                         <ul className='cards__items'>
-                            <CardItem src='images/img-portfolio.png' text='My Portfolio' label='Bigger Project' path='/' />
+                            <CardItem src='images/img-portfolio1.png' text='My Portfolio' label='Bigger Project' path='/' />
 
 
                             <div className='information'>
