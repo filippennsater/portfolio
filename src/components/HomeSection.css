@@ -3,7 +3,7 @@
     height: 100%;
     position: fixed;
     z-index: -1;
-    margin-top: -30px;
+    margin-top: -50px;
 }
 
 .arrow-container{
@@ -99,7 +99,7 @@
 }
 
 .hero-btns .btn {
-    margin: 10px;
+    margin: 0px 10px 10px 0px;
 }
 
 .fa-play-circle {
