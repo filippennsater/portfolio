@@ -43,20 +43,21 @@
   }
 
 .infobox {
-    width:250px;
-    height: 250px;
+    background-color: none;
+    width:calc(100px + 10vw);
+    height: calc(200px + 2vw);
     background-color: none;    
     display: flex;
     flex-flow:column;
     align-items: center;
     position: relative;
-    float: left;
-    margin:50px;
+    
+    margin:4vw;
 }
 
 .textbox {
     width:100px;
-    height: 33%;
+    height: calc(25px + 10vw);
     background-color: none;    
     display: flex;
     flex-flow:column;
@@ -67,28 +68,36 @@
 
 hc {
     font-weight: 900;
-    margin-top: 8px;
     color: rgb(0, 0, 0);
-    font-size: 32px;
+    font-size: calc(25px + 0.7vw);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 iconPhone {
-    margin-top: 8px;
     color: rgb(0, 119, 26);
-    font-size: 60px;
+    font-size: calc(30px + 1vw);
 }
 
 iconMail {
-    margin-top: 8px;
     color: rgb(7, 0, 105);
-    font-size: 60px;
+    font-size: calc(30px + 1vw);
 }
 
 hc2 {
     font-weight: 500;
-    margin-top: 8px;
     color: rgb(0, 0, 0);
-    font-size: 26px;
+    font-size: calc(15px + 0.7vw);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+@media only screen and (max-width: 800px) {
+    .infobox {
+      float: center;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    .infobox {
+      float: left;
+    }
+  }

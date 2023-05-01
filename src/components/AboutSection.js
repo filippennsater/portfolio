@@ -11,7 +11,7 @@ function AboutSection() {
                 <figure class="avatar" />
 
                 <div className='about-text-container'>
-                    <p4>Hi and welcome to my portfolio!<br/><br/>
+                    <p4>Hello and welcome to my portfolio!<br/><br/>
 My name is Filip Pennsäter and I’m a junior programmer that is studying computer science at Lunds university.<br/>
 I’m currently looking for an opportunity to get a foot into my future career since I’ve only been part time studying these last couple of years while working full time.<br/><br/>
 

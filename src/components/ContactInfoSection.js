@@ -10,22 +10,25 @@ function ContactInfoSection() {
             <div className='infoboxes-container'>
 
                 <ul className='list_boxes'>
+                    
+                        <div className='infobox'>
 
-                    <div className='infobox'>
+                            <div className='textbox'>
+                                <hc>Phone</hc>
+                            </div>
 
-                        <div className='textbox'>
-                            <hc>Phone</hc>
+                            <iconPhone className='textbox'>
+                                <i className="fas fa-phone"></i>
+                            </iconPhone>
+
+                            <div className='textbox'>
+                                <hc2>0700907172</hc2>
+                            </div>
+
                         </div>
+                    
 
-                        <iconPhone className='textbox'>
-                            <i className="fas fa-phone"></i>
-                        </iconPhone>
 
-                        <div className='textbox'>
-                            <hc2>0700907172</hc2>
-                        </div>
-
-                    </div>
 
                     <div className='infobox'>
 
