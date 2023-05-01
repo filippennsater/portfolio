@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video className='vid' src='../..//videos/video-1.mp4' autoPlay loop muted />
+            <video className='vid' src='../..//videos/moon-tree1.mp4' autoPlay loop muted/>
 
             <div className='selfie-container'>
                 <figure class="home-self" />

@@ -3,6 +3,7 @@
     height: 100%;
     position: fixed;
     z-index: -1;
+    margin-top: -30px;
 }
 
 .arrow-container{
@@ -26,7 +27,7 @@
     justify-content: center;
 
     align-items: center;
-    margin-top: 600px;
+    margin-top: calc(450px + 10vw);
 }
 .home-self {
     position: absolute;

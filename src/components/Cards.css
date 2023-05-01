@@ -97,10 +97,13 @@
     padding: 20px 30px 30px;
   }
   
-  .cards__item__text {
+  .cards__item__text1 {
     color: #000000;
-    font-size: 1.1vw;
     line-height: 1vw;
+  }
+
+  h10{
+    font-size: calc(10px + 1vw);
   }
   
   @media only screen and (min-width: 1200px) {
