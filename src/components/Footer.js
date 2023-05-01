@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
+
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Want me to contact you?
@@ -25,6 +26,10 @@ function Footer() {
           </form>
         </div>
       </section>
+
+
+
+
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
@@ -32,7 +37,7 @@ function Footer() {
             <p3>Filip Pennsäter</p3>
             <p3>Sweden, Skåne, Lund</p3>
             <p3>Junior developer</p3>
-            
+
           </div>
           <div class='footer-link-items'>
             <h2>Contact</h2>
@@ -55,6 +60,10 @@ function Footer() {
           </div>
         </div>
       </div>
+
+
+
+
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
@@ -66,7 +75,7 @@ function Footer() {
           <small class='website-rights'>© 2023</small>
           <div class='social-icons'>
 
-             <Link
+            <Link
               class='social-icon-link linkedin'
               to='https://www.linkedin.com/in/filip-penns%C3%A4ter-922508171/'
               target='_blank'
@@ -83,8 +92,8 @@ function Footer() {
             >
               <i class='fab fa-github' />
             </Link>
-            
-           <Link
+
+            <Link
               class='social-icon-link instagram'
               to='https://www.instagram.com/kira.and.minou/'
               target='_blank'
@@ -96,6 +105,9 @@ function Footer() {
           </div>
         </div>
       </section>
+
+
+
     </div>
   );
 }

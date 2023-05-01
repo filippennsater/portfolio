@@ -24,6 +24,7 @@
     transition: all 0.3s ease-out;
 }
 
+
 .btn--medium{
     padding: 8px 20px;
     font-size: 20px;
@@ -34,8 +35,14 @@
     font-size: 20px;
 }
 
-.btn--medium:hover, .btn--large:hover{
-background-color: white;
-color: #242424;
-transition: all 0.3s ease-out;
+.btn--medium:hover{
+    background-color: white;
+    color: #242424;
+    transition: all 0.3s ease-out;
+}
+
+.btn--large:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    transition: all 0.3s ease-out;
 }
