@@ -16,24 +16,22 @@ function Navbar() {
         console.log('visited before');
     }
 
-    //const state and function for darkmode
+    //Variable for theme and function for darkmode
 
-    const [theme, setTheme] = useState(localStorage.getItem("theme"));
+    var DMTheme = localStorage.getItem("theme");
 
     const toggleTheme = () => {
-        if (theme === 'light') {
-            setTheme('dark');
-            console.log(theme);
-            console.log('was light');
-        } else {
-            setTheme('light');
-            console.log(theme);
-            console.log('was dark');
-        }
+        if (DMTheme === 'light') {
 
-        console.log(theme);
+            DMTheme = 'dark';  
+
+        } else {
+            
+            DMTheme = 'light';       
+            
+        }
         
-        localStorage.setItem('theme', theme);
+        localStorage.setItem('theme', DMTheme);
     };
 
 
