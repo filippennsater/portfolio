@@ -6,7 +6,6 @@ function Cards () {
 
     var theme = localStorage.getItem("theme");
 
-    console.log(theme);
 
 
     return (

@@ -8,8 +8,6 @@ function CVSection() {
 
     var theme = localStorage.getItem("theme");
 
-    console.log(theme);
-
 
 
 
@@ -19,7 +17,7 @@ function CVSection() {
 
     return (
         <div className={`cv-container-${theme}`}>
-            <video src='../..//videos/video-1.mp4' autoPlay loop muted />
+
         
 
             <div className='pics__container'>

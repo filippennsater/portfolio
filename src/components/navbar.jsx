@@ -6,17 +6,33 @@ import './Navbar.css';
 
 function Navbar() {
 
+    //need to set a default darkmode value in their local storage otherwize no containerclass will render
+    //setting this from navbar since it ALLWAYS renders
+    
+    if(localStorage.getItem("theme")===null){
+        localStorage.setItem('theme', 'light');
+        console.log('first visitor');
+    }else{
+        console.log('visited before');
+    }
+
     //const state and function for darkmode
 
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState(localStorage.getItem("theme"));
 
     const toggleTheme = () => {
         if (theme === 'light') {
             setTheme('dark');
+            console.log(theme);
+            console.log('was light');
         } else {
             setTheme('light');
+            console.log(theme);
+            console.log('was dark');
         }
+
         console.log(theme);
+        
         localStorage.setItem('theme', theme);
     };
 
