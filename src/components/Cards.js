@@ -3,8 +3,14 @@ import CardItem from './CardItem';
 import './Cards.css';
 
 function Cards () {
+
+    var theme = localStorage.getItem("theme");
+
+    console.log(theme);
+
+
     return (
-        <div className='cards'>
+        <div className={`cards-${theme}`}>
             <h1><br />Some of my projects <i className="fas fa-laptop-code"></i></h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>

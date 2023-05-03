@@ -5,12 +5,20 @@ import PicItem from './PicItem';
 
 function CVSection() {
 
+
+    var theme = localStorage.getItem("theme");
+
+    console.log(theme);
+
+
+
+
     const dStyle = {
         color: 'black'
     };
 
     return (
-        <div className='cv-container'>
+        <div className={`cv-container-${theme}`}>
             <video src='../..//videos/video-1.mp4' autoPlay loop muted />
         
 

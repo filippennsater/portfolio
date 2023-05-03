@@ -1,10 +1,16 @@
 import React from 'react';
 import '../App.css';
 import './AboutSection.scss';
+import './Navbar.jsx';
 
 function AboutSection() {
+
+    var theme = localStorage.getItem("theme");
+
+    console.log(theme);
+
     return (
-        <div className='about-container'>
+        <div className={`about-container-${theme}`}>
 
             <div className='about-me-container'>
 

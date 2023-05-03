@@ -5,16 +5,36 @@ import './Navbar.css';
 
 
 function Navbar() {
+
+    //const state and function for darkmode
+
+    const [theme, setTheme] = useState('light');
+
+    const toggleTheme = () => {
+        if (theme === 'light') {
+            setTheme('dark');
+        } else {
+            setTheme('light');
+        }
+        console.log(theme);
+        localStorage.setItem('theme', theme);
+    };
+
+
+
+
+
+
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
-    const showButton = () =>{
-        if(window.innerWidth <=960){
+    const showButton = () => {
+        if (window.innerWidth <= 960) {
             setButton(false)
-        }else{
+        } else {
             setButton(true)
         }
     };
@@ -25,7 +45,7 @@ function Navbar() {
         showButton();
     }, []);
 
-    window.addEventListener('resize',  showButton);
+    window.addEventListener('resize', showButton);
 
     return (
 
@@ -72,7 +92,7 @@ function Navbar() {
 
                     </ul>
 
-                    {button && <Button buttonStyle='btn--outline' onpointerdown={null} >Darkmode</Button>}
+                    {button && <Button buttonStyle='btn--outline' onClick={toggleTheme}>Darkmode</Button>}
 
                 </div>
             </nav>

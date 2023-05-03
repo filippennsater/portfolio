@@ -3,9 +3,15 @@ import '../App.css';
 import './ContactInfoSection.css';
 
 function ContactInfoSection() {
+
+    var theme = localStorage.getItem("theme");
+
+    console.log(theme);
+
+
     return (
 
-        <div className='info-container'>
+        <div className={`info-container-${theme}`}>
 
             <div className='infoboxes-container'>
 

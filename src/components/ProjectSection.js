@@ -3,8 +3,15 @@ import CardItem from './CardItem';
 import './ProjectSection.css';
 
 function ProjectSection() {
+
+
+    var theme = localStorage.getItem("theme");
+
+    console.log(theme);
+
+
     return (
-        <div className='project-container'>
+        <div className={`project-container-${theme}`}>
             <div className='cards2'>
                 <h6>My projects <i className="fas fa-laptop-code"></i></h6>
                 <div className='cards__container'>
