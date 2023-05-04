@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from './Button';
+// import { Button } from './Button';
 import './Navbar.css';
 
 
@@ -8,11 +8,11 @@ function Navbar() {
 
     //need to set a default darkmode value in their local storage otherwize no containerclass will render
     //setting this from navbar since it ALLWAYS renders
-    
-    if(localStorage.getItem("theme")===null){
+
+    if (localStorage.getItem("theme") === null) {
         localStorage.setItem('theme', 'light');
         console.log('first visitor');
-    }else{
+    } else {
         console.log('visited before');
     }
 
@@ -23,14 +23,14 @@ function Navbar() {
     const toggleTheme = () => {
         if (DMTheme === 'light') {
 
-            DMTheme = 'dark';  
+            DMTheme = 'dark';
 
         } else {
-            
-            DMTheme = 'light';       
-            
+
+            DMTheme = 'light';
+
         }
-        
+
         localStorage.setItem('theme', DMTheme);
     };
 
@@ -40,16 +40,16 @@ function Navbar() {
 
 
     const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
+    // const [button, setButton] = useState(true);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
     const showButton = () => {
         if (window.innerWidth <= 960) {
-            setButton(false)
+            // setButton(false)
         } else {
-            setButton(true)
+            // setButton(true)
         }
     };
 
@@ -106,13 +106,26 @@ function Navbar() {
 
                     </ul>
 
-                    {button && <Button buttonStyle='btn--outline' onClick={toggleTheme}>Darkmode</Button>}
 
-                
+
+
+
+                    <button class="buttonDarkMode" onClick={toggleTheme}>
+                        <p>DM</p>
+                    </button>
+
+
+
+
+
+
                 </div>
+
+
+
             </nav>
         </>
-//{`btn--outline--${DMTheme}`}
+        // {button && <Button buttonStyle='btn--outline' onClick={toggleTheme}>Darkmode</Button>}
     );
 }
 

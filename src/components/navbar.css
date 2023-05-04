@@ -157,3 +157,48 @@
       transition: 250ms;
     }
   }
+
+
+
+  .darkModeDiv {
+
+    position: absolute;
+    align-self: center;
+    left: 90%;
+    top: 5%;
+
+}
+
+  .buttonDarkMode {
+    border-style: dashed;
+    border-color: #000000;
+    border-width: 5px;
+    vertical-align: top;
+    justify-self: right;
+
+    /*makes the button rounded*/
+    border-radius: 100%;
+
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration-color: black;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-text-fill-color: black;
+    box-shadow: 0 3px #616161;
+}
+
+.buttonDarkMode:hover {
+    background-color: #bdbdbd;
+
+}
+
+.buttonDarkMode:active {
+    background-color: #bdbdbd;
+    box-shadow: 0 5px #202020;
+
+    /*makes button drop down towards shadow*/
+    transform: translateY(3px);
+}
