@@ -108,10 +108,11 @@ function Navbar() {
 
                     {button && <Button buttonStyle='btn--outline' onClick={toggleTheme}>Darkmode</Button>}
 
+                
                 </div>
             </nav>
         </>
-
+//{`btn--outline--${DMTheme}`}
     );
 }
 
