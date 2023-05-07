@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 // import { Button } from './Button';
 import './Navbar.css';
+import { createContext } from 'react';
+
+export const ThemeContext = createContext(null);
 
 
 function Navbar() {
@@ -20,6 +23,14 @@ function Navbar() {
 
     var DMTheme = localStorage.getItem("theme");
 
+    const[theS, setTheS] = useState(localStorage.getItem("theme"));
+
+
+
+    const toggleBoggle = () => {
+        setTheS(DMTheme);
+    };
+
     const toggleTheme = () => {
         if (DMTheme === 'light') {
 
@@ -32,6 +43,9 @@ function Navbar() {
         }
 
         localStorage.setItem('theme', DMTheme);
+
+
+        toggleBoggle();
 
     };
 
@@ -110,11 +124,13 @@ function Navbar() {
 
 
 
+                    <ThemeContext.Provider value={{theS, toggleBoggle}}>
 
-                    <button class="buttonDarkMode" onClick={toggleTheme}>
-                        <p>DM</p>
+                    <button class="buttonDarkMode" id={`${theS}s`} onClick={toggleTheme}>
+                        
                     </button>
 
+                    </ThemeContext.Provider>
 
 
 

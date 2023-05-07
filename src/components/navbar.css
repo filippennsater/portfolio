@@ -166,7 +166,8 @@
 
 
   .buttonDarkMode {
-    border-style: double;
+    background-color: white;
+    border-style: none;
     border-color: #000000;
     border-width: 5px;
     vertical-align: top;
@@ -174,6 +175,9 @@
 
     /*makes the button rounded*/
     border-radius: 100%;
+
+    width: 40px;
+    height: 40px;
 
     color: white;
     padding: 2px 2px;
@@ -197,4 +201,21 @@
 
     /*makes button drop down towards shadow*/
     transform: translateY(3px);
+}
+
+#lights {
+  background: url('../../public/images/sun.gif') center center/cover no-repeat;
+  background-color: white;
+  color: #000000;
+}
+
+#darks {
+  background: url('../../public/images/moon.gif') center center/cover no-repeat;
+
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+#darks p{
+  color: #ffffff;
 }
