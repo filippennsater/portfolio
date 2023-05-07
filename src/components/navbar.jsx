@@ -32,6 +32,7 @@ function Navbar() {
         }
 
         localStorage.setItem('theme', DMTheme);
+
     };
 
 
