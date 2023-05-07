@@ -166,7 +166,7 @@
 
 
   .buttonDarkMode {
-    border-style: dashed;
+    border-style: double;
     border-color: #000000;
     border-width: 5px;
     vertical-align: top;

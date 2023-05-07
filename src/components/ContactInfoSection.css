@@ -1,4 +1,4 @@
-.info-container-light {
+.info-container {
     background-color: rgb(255, 255, 255);    
     min-height: 55vh;
     width: 100%;
@@ -12,19 +12,15 @@
     object-fit: contain;
 }
 
-.info-container-dark {
-    background-color: rgb(0, 0, 0);    
-    min-height: 55vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+ #light {
+    background-color: white;
+    color: #000000;
+  }
 
-    /*centers in x and y*/
-    justify-content: center;
-
-    align-items: center;
-    object-fit: contain;
-}
+  #dark {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+  }
 
 
 
@@ -74,24 +70,24 @@
 
 
 
-.info-container-light hc {
+#light hc {
     font-weight: 900;
     color: rgb(0, 0, 0);
     font-size: calc(25px + 0.7vw);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.info-container-light iconPhone {
+#light iconPhone {
     color: rgb(0, 119, 26);
     font-size: calc(30px + 1vw);
 }
 
-.info-container-light iconMail {
+#light iconMail {
     color: rgb(7, 0, 105);
     font-size: calc(30px + 1vw);
 }
 
-.info-container-light hc2 {
+#light hc2 {
     font-weight: 500;
     color: rgb(0, 0, 0);
     font-size: calc(15px + 0.7vw);
@@ -100,24 +96,24 @@
 
 
 
-.info-container-dark hc {
+#dark hc {
     font-weight: 900;
     color: rgb(255, 255, 255);
     font-size: calc(25px + 0.7vw);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.info-container-dark iconPhone {
+#dark iconPhone {
     color: rgb(0, 119, 26);
     font-size: calc(30px + 1vw);
 }
 
-.info-container-dark iconMail {
+#dark iconMail {
     color: rgb(11, 0, 170);
     font-size: calc(30px + 1vw);
 }
 
-.info-container-dark hc2 {
+#dark hc2 {
     font-weight: 500;
     color: rgb(255, 255, 255);
     font-size: calc(15px + 0.7vw);

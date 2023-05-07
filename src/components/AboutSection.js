@@ -1,16 +1,56 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../App.css';
 import './AboutSection.scss';
 import './Navbar.jsx';
+import { createContext } from 'react';
+
+export const ThemeContext = createContext(null);
 
 function AboutSection() {
 
     var theme = localStorage.getItem("theme");
 
-    console.log(theme);
+    const[theS, setTheS] = useState(localStorage.getItem("theme"));
+
+
+
+    const toggleBoggle = () => {
+        setTheS(theme);
+    };
+
+
+    let changed = false;
+
+    function yourFunction(){
+
+        var wasss = theme;
+
+        var isss = localStorage.getItem("theme");
+
+        changed = !(wasss === isss);        //if they are the same "changed" should be false
+
+        theme = localStorage.getItem("theme");
+    
+        setTimeout(yourFunction, 10);       //this makes sure that the function keeps checking if the user pressed the darkmode-button
+
+
+        if (changed){
+
+            toggleBoggle();                 //need to call toggleBoggle aka rerenderingfunction in if statement, else React will refuse because it's and infinite re-render
+            changed = false;
+
+        }
+        
+    }
+    
+    yourFunction();
+
+   
+
 
     return (
-        <div className={`about-container-${theme}`}>
+        <ThemeContext.Provider value={{theS, toggleBoggle}}>
+        <div className='about-container' id={theS}>
 
             <div className='about-me-container'>
 
@@ -44,7 +84,8 @@ In this portfolio I hope you will see the value in me and that you might decide 
             </div>
 
         </div>
-    )
+        </ThemeContext.Provider>
+    );
 }
 
 export default AboutSection

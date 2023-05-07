@@ -1,16 +1,54 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CardItem from './CardItem';
 import './ProjectSection.css';
+import { createContext } from 'react';
+
+export const ThemeContext = createContext(null);
 
 function ProjectSection() {
 
-
     var theme = localStorage.getItem("theme");
+
+    const[theS, setTheS] = useState(localStorage.getItem("theme"));
+
+
+
+    const toggleBoggle = () => {
+        setTheS(theme);
+    };
+
+
+    let changed = false;
+
+    function yourFunction(){
+
+        var wasss = theme;
+
+        var isss = localStorage.getItem("theme");
+
+        changed = !(wasss === isss);        //if they are the same "changed" should be false
+
+        theme = localStorage.getItem("theme");
+    
+        setTimeout(yourFunction, 10);       //this makes sure that the function keeps checking if the user pressed the darkmode-button
+
+
+        if (changed){
+
+            toggleBoggle();                 //need to call toggleBoggle aka rerenderingfunction in if statement, else React will refuse because it's and infinite re-render
+            changed = false;
+
+        }
+        
+    }
+    
+    yourFunction();
 
 
 
     return (
-        <div className={`project-container-${theme}`}>
+        <ThemeContext.Provider value={{theS, toggleBoggle}}>
+        <div className='project-container' id={theS}>
             <div className='cards2'>
                 <h6>My projects <i className="fas fa-laptop-code"></i></h6>
                 <div className='cards__container'>
@@ -112,7 +150,8 @@ function ProjectSection() {
                 </div>
             </div>
         </div>
-    )
+        </ThemeContext.Provider>
+    );
 }
 
 

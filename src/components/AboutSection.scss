@@ -1,4 +1,4 @@
-.about-container-light {
+.about-container {
     /*background: url('../../public/images/img-home.jpg') center center/cover no-repeat;*/
     background-color: rgb(255, 255, 255);
     height: flex;
@@ -15,21 +15,14 @@
     object-fit: contain;
 }
 
-.about-container-dark {
-  /*background: url('../../public/images/img-home.jpg') center center/cover no-repeat;*/
+#light {
+  background-color: white;
+  color: #000000;
+}
+
+#dark {
   background-color: rgb(0, 0, 0);
-  height: flex;
-  padding: 2vw;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-
-  /*centers in x and y*/
-  justify-content: center;
-
-  align-items: center;
-  /*box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);*/
-  object-fit: contain;
+  color: #ffffff;
 }
 
 
