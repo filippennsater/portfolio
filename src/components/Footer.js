@@ -51,15 +51,15 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Rights</h2>
-            <Link to='https://github.com/filippennsater/portfolio'>Open source</Link>
+            <Link to='https://github.com/filippennsater/portfolio' target='_blank'>Open source</Link>
             <Link to='/'>AI created media</Link>
             <Link to='/'>Terms of service</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='https://www.linkedin.com/in/filip-penns%C3%A4ter-922508171/'>LinkedIn</Link>
-            <Link to='https://github.com/filippennsater'>GitHub</Link>
-            <Link to='https://www.instagram.com/kira.and.minou/'>Instagram</Link>
+            <Link to='https://www.linkedin.com/in/filip-penns%C3%A4ter-922508171/' target='_blank'>LinkedIn</Link>
+            <Link to='https://github.com/filippennsater' target='_blank'>GitHub</Link>
+            <Link to='https://www.instagram.com/kira.and.minou/' target='_blank'>Instagram</Link>
           </div>
         </div>
       </div>
