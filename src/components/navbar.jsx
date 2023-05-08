@@ -126,9 +126,15 @@ function Navbar() {
 
                     <ThemeContext.Provider value={{theS, toggleBoggle}}>
 
+                    <div className='DMButtonDiv'>
+
                     <button class="buttonDarkMode" id={`${theS}s`} onClick={toggleTheme}>
                         
                     </button>
+
+                    <p>Darkmode</p>
+
+                    </div>
 
                     </ThemeContext.Provider>
 

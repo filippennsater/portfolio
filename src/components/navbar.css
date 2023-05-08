@@ -161,17 +161,34 @@
   }
 
 
+  .DMButtonDiv{
+  display: flex;
+  flex-direction: column;
 
+    /*centers in x and y*/
+  justify-content: center;
+
+  align-items: center;
+  }
+
+  .DMButtonDiv p{
+    font-style: italic;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 10px;
+  }
 
 
 
   .buttonDarkMode {
+    align-self: center;
+    justify-self: center;
+    
     background-color: white;
     border-style: none;
     border-color: #000000;
     border-width: 5px;
-    vertical-align: top;
-    justify-self: right;
+    
 
     /*makes the button rounded*/
     border-radius: 100%;
@@ -183,11 +200,10 @@
     padding: 2px 2px;
     text-align: center;
     text-decoration-color: black;
-    display: inline-block;
     font-size: 20px;
     cursor: pointer;
     -webkit-text-fill-color: black;
-    box-shadow: 0 3px #616161;
+    box-shadow: 0 3px #6b6b6b;
 }
 
 .buttonDarkMode:hover {
