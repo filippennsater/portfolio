@@ -162,6 +162,7 @@
 
 
   .DMButtonDiv{
+  margin-left: 75px;
   display: flex;
   flex-direction: column;
 
@@ -175,7 +176,7 @@
     font-style: italic;
     font-size: 12px;
     color: #fff;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
 
@@ -213,7 +214,7 @@
 
 .buttonDarkMode:active {
     background-color: #bdbdbd;
-    box-shadow: 0 5px #202020;
+    box-shadow: 0 5px rgb(26, 23, 23);
 
     /*makes button drop down towards shadow*/
     transform: translateY(3px);
@@ -234,4 +235,17 @@
 
 #darks p{
   color: #ffffff;
+}
+
+
+@media screen and (max-width: 820px) {
+
+
+
+  .DMButtonDiv{
+    margin-left: 150px;
+    
+  }
+
+
 }
