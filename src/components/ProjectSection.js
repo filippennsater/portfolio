@@ -51,8 +51,8 @@ function ProjectSection() {
         <div className='project-container' id={theS}>
             <div className='cards2'>
                 <h6>My projects <i className="fas fa-laptop-code"></i></h6>
-                <div className='cards__container'>
-                    <div className='cards__wrapper'>
+                <div className='projects__container'>
+                    <div className='projects__wrapper'>
 
                         <ul className='cards__items'>
                             <CardItem src='images/img-8ball.png' text='Magic 8-ball' label='Small project' path='https://magic8ball-50df8.web.app/' />

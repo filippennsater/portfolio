@@ -36,15 +36,9 @@
     background: none;
   }
   
-  h4 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: 1.8vw;
-    margin-top: 1.5vw;
-  }
 
   
-  .cards__container {
+  .projects__container {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -52,7 +46,7 @@
     margin: 0 auto;
   }
   
-  .cards__wrapper {
+  .projects__wrapper {
     position: relative;
     margin: 50px 0 45px;
     width: 80%;
@@ -151,9 +145,21 @@
   }
   
   @media only screen and (max-width: 1024px) {
+
     .cards__item {
       margin-bottom: 2rem;
     }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .projects__wrapper {
+      width: 130%;
+    }
+
+  
+
+
   }
 
 
@@ -203,6 +209,13 @@
 
   ptext{
     color: black;
-    font-size:1.3vw;
+    font-size:calc(7px + 1.0vw);
     padding: 1vw;
+  }
+
+  h4 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: calc(10px + 1.4vw);
+    margin-top: 1.5vw;
   }
