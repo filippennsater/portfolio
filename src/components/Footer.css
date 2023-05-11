@@ -7,8 +7,15 @@
     align-items: center;
     width: 100%;
   }
-  
-  .footer-subscription {
+ 
+
+  .input-areas{
+    width: 100%;
+    height: 200px;
+  }
+
+   
+  .footer-mail {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,17 +27,17 @@
     color: #fff;
   }
   
-  .footer-subscription > p {
+  .footer-mail > p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
   
-  .footer-subscription-heading {
+  .footer-mail-heading {
     margin-bottom: 24px;
     font-size: 24px;
   }
   
-  .footer-subscription-text {
+  .footer-mail-text {
     margin-bottom: 24px;
     font-size: 20px;
   }
@@ -45,6 +52,7 @@
     margin-bottom: 16px;
     border: 1px solid #fff;
   }
+
   
   .footer-links {
     width: 100%;

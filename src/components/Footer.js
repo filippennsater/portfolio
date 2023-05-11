@@ -1,33 +1,63 @@
-import React from 'react';
+//import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+
+
 function Footer() {
+
+
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_xsctubo', 'template_llb8jdn', form.current, '5jVM2ay85gp2dgiga')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  };
+
+
+
+
   return (
+
+
     <div className='footer-container'>
 
 
-      
+      <section className='footer-mail'>
 
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
+        <p className='footer-mail-heading'>
           Want me to contact you?
         </p>
-        <p className='footer-subscription-text'>
-          Send me your email and I'll reach out to you shortly!
+        <p className='footer-mail-text'>
+          Send me an email and I'll reach out to you shortly!
         </p>
+
+
         <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='--out of order--'
-            />
-            <Button buttonStyle='btn--outline'>Send</Button>
+
+          <form ref={form} onSubmit={sendEmail}>
+            <label>Name </label>
+            <input classname='footer-input' type="text" name="user_name" /><br /><br />
+            <label>Email </label>
+            <input type="email" name="user_email" /><br /><br />
+            <label>Message </label>
+            <textarea name="message" /><br /><br />
+            <Button buttonStyle='btn--outline' buttonSize='btn--medium' type="submit" value="Send">Send</Button>
           </form>
+
         </div>
+
       </section>
 
 

@@ -49,3 +49,8 @@
 
 
 
+.btn--medium:active{
+    background-color: rgb(0, 133, 11);
+    color: #ffffff;
+    transition: all 0.3s ease-out;
+}
