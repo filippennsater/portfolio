@@ -23,9 +23,17 @@ function Footer() {
       }, (error) => {
         console.log(error.text);
       });
+
+    resetForm();
+
   };
 
 
+  
+  function resetForm() {
+    var form = document.getElementById("myForm");
+    form.reset();
+  };
 
 
   return (
@@ -46,19 +54,39 @@ function Footer() {
 
         <div className='input-areas'>
 
-          <form ref={form} onSubmit={sendEmail}>
-            <label>Name </label>
-            <input classname='footer-input' type="text" name="user_name" /><br /><br />
-            <label>Email </label>
-            <input type="email" name="user_email" /><br /><br />
-            <label>Message </label>
-            <textarea name="message" /><br /><br />
+          <form id="myForm" ref={form} onSubmit={sendEmail}>
+            <label>Name<br /></label>
+            <input id="input1" type="text" name="user_name" style={{
+              "width": "50%",
+              "height": "25px",
+              "border-radius": "5px",
+              "padding": "2px"
+            }} /><br /><br />
+
+            <label>Email<br /></label>
+            <input id="input2" type="email" name="user_email" style={{
+              "width": "50%",
+              "height": "25px",
+              "border-radius": "5px",
+              "padding": "2px"
+            }} /><br /><br />
+
+            <label>Message<br /></label>
+            <textarea id="input3" name="message" style={{
+              "width": "50%",
+              "height": "100px",
+              "border-radius": "5px",
+              "padding": "3px"
+            }} /><br /><br />
+
             <Button buttonStyle='btn--outline' buttonSize='btn--medium' type="submit" value="Send">Send</Button>
           </form>
 
         </div>
 
       </section>
+
+
 
 
 
@@ -143,6 +171,7 @@ function Footer() {
 
     </div>
   );
+
 }
 
 export default Footer;

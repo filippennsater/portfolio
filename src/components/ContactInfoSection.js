@@ -63,9 +63,9 @@ function ContactInfoSection() {
                                 <hc>Phone</hc>
                             </div>
 
-                            <iconPhone className='textbox'>
-                                <i className="fas fa-phone"></i>
-                            </iconPhone>
+                            <div className='textbox'>
+                                <iconPhone><i className="fas fa-phone"></i></iconPhone>
+                            </div>
 
                             <div className='textbox'>
                                 <hc2>0700907172</hc2>
@@ -82,9 +82,9 @@ function ContactInfoSection() {
                             <hc>Email</hc>
                         </div>
 
-                        <iconMail className='textbox'>
-                            <i className="fas fa-envelope"></i>
-                        </iconMail>
+                        <div className='textbox'>
+                            <iconMail><i className="fas fa-envelope"></i></iconMail>
+                        </div>
 
                         <div className='textbox'>
                             <hc2>filip.pennsater@gmail.com</hc2>
