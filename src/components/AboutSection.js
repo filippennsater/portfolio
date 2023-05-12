@@ -54,7 +54,7 @@ function AboutSection() {
 
             <div className='about-me-container'>
 
-                <figure class="avatar" />
+                <figure className="avatar" />
 
                 <div className='about-text-container'>
                     <p4>Hello and welcome to my portfolio!<br/><br/>

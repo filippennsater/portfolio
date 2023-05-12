@@ -128,7 +128,7 @@ function Navbar() {
 
                     <div className='DMButtonDiv'>
 
-                    <button class="buttonDarkMode" id={`${theS}s`} onClick={toggleTheme}>
+                    <button className="buttonDarkMode" id={`${theS}s`} onClick={toggleTheme}>
                         
                     </button>
 

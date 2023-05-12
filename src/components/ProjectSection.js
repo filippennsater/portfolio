@@ -63,18 +63,18 @@ function ProjectSection() {
                                 <ul>
                                     <ptext><br /><br />&emsp;A small website that generate random answers<br /></ptext>
                                     <ptext><br />&emsp;Focus on usage of styling and javascripts<br /></ptext>
-                                    <ptext><br />&emsp;Hosted through google-firebase <i class="fa-solid fa-fire"></i><br /></ptext>
+                                    <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
                                 </ul>
 
                                 <div className='info_figures'>
 
-                                    <div className='figures'><i class="fa-brands fa-html5"></i></div>
+                                    <div className='figures'><i className="fa-brands fa-html5"></i></div>
 
-                                    <div className='figures'><i class='fa-brands fa-square-js'></i></div>
+                                    <div className='figures'><i className='fa-brands fa-square-js'></i></div>
 
-                                    <div className='figures'><i class="fa-brands fa-css3"></i></div>
+                                    <div className='figures'><i className="fa-brands fa-css3"></i></div>
 
-                                    <div className='figures'><i class="fa-brands fa-git"></i></div>
+                                    <div className='figures'><i className="fa-brands fa-git"></i></div>
 
 
                                 </div>
@@ -92,18 +92,18 @@ function ProjectSection() {
                                 <ul>
                                     <ptext><br /><br />&emsp;A small website with an interactive piano (pc only)<br /></ptext>
                                     <ptext><br />&emsp;Focus on usage of styling and javascripts<br /></ptext>
-                                    <ptext><br />&emsp;Hosted through google-firebase <i class="fa-solid fa-fire"></i><br /></ptext>
+                                    <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
                                 </ul>
 
                                 <div className='info_figures'>
 
-                                    <div className='figures'><i class="fa-brands fa-html5"></i></div>
+                                    <div className='figures'><i className="fa-brands fa-html5"></i></div>
 
-                                    <div className='figures'><i class='fa-brands fa-square-js'></i></div>
+                                    <div className='figures'><i className='fa-brands fa-square-js'></i></div>
 
-                                    <div className='figures'><i class="fa-brands fa-css3"></i></div>
+                                    <div className='figures'><i className="fa-brands fa-css3"></i></div>
 
-                                    <div className='figures'><i class="fa-brands fa-git"></i></div>
+                                    <div className='figures'><i className="fa-brands fa-git"></i></div>
 
                                 </div>
 
@@ -122,21 +122,21 @@ function ProjectSection() {
                                 <ul>
                                     <ptext><br /><br />&emsp;My own portfolio that is compatible with phones<br /></ptext>
                                     <ptext><br />&emsp;Focus on fullstack usage with React<br /></ptext>
-                                    <ptext><br />&emsp;Hosted through google-firebase <i class="fa-solid fa-fire"></i><br /></ptext>
+                                    <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
                                 </ul>
 
                                 <div className='info_figures'>
 
                                     
-                                    <div className='figures'><i class="fa-brands fa-react"></i></div>
+                                    <div className='figures'><i className="fa-brands fa-react"></i></div>
                                     
-                                    <div className='figures'><i class="fa-brands fa-html5"></i></div>
+                                    <div className='figures'><i className="fa-brands fa-html5"></i></div>
 
-                                    <div className='figures'><i class='fa-brands fa-square-js'></i></div>
+                                    <div className='figures'><i className='fa-brands fa-square-js'></i></div>
 
-                                    <div className='figures'><i class="fa-brands fa-sass"></i></div>
+                                    <div className='figures'><i className="fa-brands fa-sass"></i></div>
 
-                                    <div className='figures'><i class="fa-brands fa-git"></i></div>
+                                    <div className='figures'><i className="fa-brands fa-git"></i></div>
 
                                     
                                 </div>

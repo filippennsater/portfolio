@@ -29,7 +29,7 @@ function Footer() {
   };
 
 
-  
+
   function resetForm() {
     var form = document.getElementById("myForm");
     form.reset();
@@ -59,7 +59,7 @@ function Footer() {
             <input id="input1" type="text" name="user_name" style={{
               "width": "50%",
               "height": "25px",
-              "border-radius": "5px",
+              "borderRadius": "5px",
               "padding": "2px"
             }} /><br /><br />
 
@@ -67,7 +67,7 @@ function Footer() {
             <input id="input2" type="email" name="user_email" style={{
               "width": "50%",
               "height": "25px",
-              "border-radius": "5px",
+              "borderRadius": "5px",
               "padding": "2px"
             }} /><br /><br />
 
@@ -75,7 +75,7 @@ function Footer() {
             <textarea id="input3" name="message" style={{
               "width": "50%",
               "height": "100px",
-              "border-radius": "5px",
+              "borderRadius": "5px",
               "padding": "3px"
             }} /><br /><br />
 
@@ -91,76 +91,82 @@ function Footer() {
 
 
 
-      <div class='footer-links'>
+      <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+
+          <div className='footer-link-items'>
             <h2>About Me</h2>
             <p3>Filip Pennsäter</p3>
             <p3>Sweden, Skåne, Lund</p3>
             <p3>Junior developer</p3>
-
           </div>
-          <div class='footer-link-items'>
+
+          <div className='footer-link-items'>
             <h2>Contact</h2>
             <p3>0700907172</p3>
             <p3>filip.pennsater@gmail.com</p3>
           </div>
+
         </div>
+
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+
+          <div className='footer-link-items'>
             <h2>Rights</h2>
             <Link to='https://github.com/filippennsater/portfolio' target='_blank'>Open source</Link>
             <Link to='/'>AI created media</Link>
             <Link to='/'>Terms of service</Link>
           </div>
-          <div class='footer-link-items'>
+
+          <div className='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='https://www.linkedin.com/in/filip-penns%C3%A4ter-922508171/' target='_blank'>LinkedIn</Link>
             <Link to='https://github.com/filippennsater' target='_blank'>GitHub</Link>
             <Link to='https://www.instagram.com/kira.and.minou/' target='_blank'>Instagram</Link>
           </div>
+
         </div>
       </div>
 
 
 
 
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               Portfolio
-              <i class='fas fa-book' />
+              <i className='fas fa-book' />
             </Link>
           </div>
-          <small class='website-rights'>© 2023</small>
-          <div class='social-icons'>
+          <small className='website-rights'>© 2023</small>
+          <div className='social-icons'>
 
             <Link
-              class='social-icon-link linkedin'
+              className='social-icon-link linkedin'
               to='https://www.linkedin.com/in/filip-penns%C3%A4ter-922508171/'
               target='_blank'
               aria-label='LinkedIn'
             >
-              <i class='fab fa-linkedin' />
+              <i className='fab fa-linkedin' />
             </Link>
 
             <Link
-              class='social-icon-link github'
+              className='social-icon-link github'
               to='https://github.com/filippennsater'
               target='_blank'
               aria-label='Github'
             >
-              <i class='fab fa-github' />
+              <i className='fab fa-github' />
             </Link>
 
             <Link
-              class='social-icon-link instagram'
+              className='social-icon-link instagram'
               to='https://www.instagram.com/kira.and.minou/'
               target='_blank'
               aria-label='Instagram'
             >
-              <i class='fab fa-instagram' />
+              <i className='fab fa-instagram' />
             </Link>
 
           </div>

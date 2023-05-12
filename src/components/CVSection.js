@@ -66,7 +66,7 @@ function CVSection() {
 
                 <div className='download-wrapper'>
 
-                <button className='btnD'><a style={dStyle} href='CV.pdf' download><i class="fa fa-download"></i> Download CV</a></button>
+                <button className='btnD'><a style={dStyle} href='CV.pdf' download><i className="fa fa-download"></i> Download CV</a></button>
                     
                 </div>
 

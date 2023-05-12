@@ -10,7 +10,7 @@ function HeroSection() {
             <video className='vid' src='../..//videos/moon-tree1.mp4' autoPlay loop muted/>
 
             <div className='selfie-container'>
-                <figure class="home-self" />
+                <figure className="home-self" />
             </div>
 
             <h1>WELCOME TO MY PORTFOLIO!</h1>
@@ -26,13 +26,13 @@ function HeroSection() {
 
                 <Link to='/contact'>
                     <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
-                        Contact me <i class="fa-regular fa-address-book"></i>
+                        Contact me <i className="fa-regular fa-address-book"></i>
                     </Button>
                 </Link>
             </div>
 
             <div className='arrow-container'>
-                <i class="fa-solid fa-arrow-down fa-bounce"></i>
+                <i className="fa-solid fa-arrow-down fa-bounce"></i>
             </div>
         </div>
     )
