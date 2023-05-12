@@ -3,14 +3,18 @@ import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+
+import { createContext } from 'react';
+
+export const ThemeContext = createContext(null);
 
 
 
 function Footer() {
 
-
+  const[theS, setTheS] = useState("notSent");
 
   const form = useRef();
 
@@ -24,6 +28,8 @@ function Footer() {
         console.log(error.text);
       });
 
+    
+    setTheS("sent");
     resetForm();
 
   };
@@ -45,44 +51,63 @@ function Footer() {
       <section className='footer-mail'>
 
         <p className='footer-mail-heading'>
-          Want me to contact you?
+          Express-message!
         </p>
         <p className='footer-mail-text'>
-          Send me an email and I'll reach out to you shortly!
+          Fill out this form and I'll reach out to you shortly!
         </p>
 
 
         <div className='input-areas'>
 
+
+
           <form id="myForm" ref={form} onSubmit={sendEmail}>
-            <label>Name<br /></label>
-            <input id="input1" type="text" name="user_name" style={{
-              "width": "50%",
-              "height": "25px",
-              "borderRadius": "5px",
-              "padding": "2px"
-            }} /><br /><br />
 
-            <label>Email<br /></label>
-            <input id="input2" type="email" name="user_email" style={{
-              "width": "50%",
-              "height": "25px",
-              "borderRadius": "5px",
-              "padding": "2px"
-            }} /><br /><br />
+            <div className='footerTextBoxes'>
 
-            <label>Message<br /></label>
-            <textarea id="input3" name="message" style={{
-              "width": "50%",
-              "height": "100px",
-              "borderRadius": "5px",
-              "padding": "3px"
-            }} /><br /><br />
+              <label>Name<br /></label>
+              <input id="input1" type="text" name="user_name" style={{
+                "width": "70%",
+                "height": "25px",
+                "borderRadius": "5px",
+                "padding": "2px"
+              }} /><br />
+
+              <label>Email<br /></label>
+              <input id="input2" type="email" name="user_email" style={{
+                "width": "70%",
+                "height": "25px",
+                "borderRadius": "5px",
+                "padding": "2px"
+              }} /><br /><br />
+
+            </div>
+
+            <div className='footerTextBoxes'>
+              <label>Message<br /></label>
+              <textarea id="input3" name="message" style={{
+                "width": "70%",
+                "height": "100px",
+                "borderRadius": "5px",
+                "padding": "3px"
+              }} /><br /><br />
+
+            </div>
 
             <Button buttonStyle='btn--outline' buttonSize='btn--medium' type="submit" value="Send">Send</Button>
           </form>
+          
 
         </div>
+
+
+        <ThemeContext.Provider value={{theS, resetForm}}>
+
+        <div className='confText' id={`${theS}`}><br />Message sent ✓</div>
+
+        </ThemeContext.Provider>
+
 
       </section>
 
