@@ -56,16 +56,17 @@ function Cards () {
             <div className='cards__container'>
                 <div className='cards__wrapper'>
 
+                <ul className='cards__items'>
+                        <CardItem src='images/img-portfolio1.png' text='My Portfolio' label='Bigger Project' path='/' />
+                        <CardItem src='images/img-GoodGains.png' text='GoodGains' label='Bigger Project' path='https://goodgains-1202d.web.app' />
+                        <CardItem src='images/loading.gif' text='MarketTracker (Coming soon)' label='Bigger Project' path='/projects' />
+                    </ul>
+
                     <ul className='cards__items'>
                         <CardItem src='images/img-8ball.png' text='Magic 8-ball' label='Small project' path='https://magic8ball-50df8.web.app/' />
                         <CardItem src='images/img-Apiano.png' text='The Amazing Piano' label='Small project' path='https://theamazingpiano-65a1c.web.app/' />
                     </ul>
 
-                    <ul className='cards__items'>
-                        <CardItem src='images/img-portfolio1.png' text='My Portfolio' label='Bigger Project' path='/' />
-                        <CardItem src='images/loading.gif' text='-Coming soon-' label='Bigger Project' path='/projects' />
-                        <CardItem src='images/loading.gif' text='-Coming soon-' label='Bigger Project' path='/projects' />
-                    </ul>
 
                 </div>
             </div>           

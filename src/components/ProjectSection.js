@@ -54,6 +54,78 @@ function ProjectSection() {
                 <div className='projects__container'>
                     <div className='projects__wrapper'>
 
+
+
+                    <ul className='cards__items'>
+                            <CardItem src='images/img-portfolio1.png' text='My Portfolio' label='Bigger Project' path='/' />
+
+
+                            <div className='information'>
+                                <h4>My Portfolio</h4>
+                                <ul>
+                                    <ptext><br /><br />&emsp;My own portfolio that is compatible with phones<br /></ptext>
+                                    <ptext><br />&emsp;Focus on fullstack and using React<br /></ptext>
+                                    <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
+                                </ul>
+
+                                <div className='info_figures'>
+
+                                    
+                                    <div className='figures'><i className="fa-brands fa-react"></i></div>
+                                    
+                                    <div className='figures'><i className="fa-brands fa-html5"></i></div>
+
+                                    <div className='figures'><i className='fa-brands fa-square-js'></i></div>
+
+                                    <div className='figures'><i className="fa-brands fa-sass"></i></div>
+
+                                    <div className='figures'><i className="fa-brands fa-git"></i></div>
+
+                                    
+                                </div>
+
+                            </div>
+
+
+                        </ul>
+
+
+
+                        <ul className='cards__items'>
+                            <CardItem src='images/img-GoodGains.png' text='GoodGains' label='Bigger Project' path='https://goodgains-1202d.web.app' />
+
+
+                            <div className='information'>
+                                <h4>GoodGains</h4>
+                                <ul>
+                                    <ptext><br /><br />&emsp;A simple workout-website<br /></ptext>
+                                    <ptext><br />&emsp;Focus on styling and using React<br /></ptext>
+                                    <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
+                                </ul>
+
+                                <div className='info_figures'>
+
+                                    
+                                    <div className='figures'><i className="fa-brands fa-react"></i></div>
+                                    
+                                    <div className='figures'><i className="fa-brands fa-html5"></i></div>
+
+                                    <div className='figures'><i className='fa-brands fa-square-js'></i></div>
+
+                                    <div className='figures'><i className="fa-brands fa-sass"></i></div>
+
+                                    <div className='figures'><i className="fa-brands fa-git"></i></div>
+
+                                    
+                                </div>
+
+                            </div>
+
+
+                        </ul>
+
+
+
                         <ul className='cards__items'>
                             <CardItem src='images/img-8ball.png' text='Magic 8-ball' label='Small project' path='https://magic8ball-50df8.web.app/' />
 
@@ -113,38 +185,7 @@ function ProjectSection() {
                         </ul>
 
 
-                        <ul className='cards__items'>
-                            <CardItem src='images/img-portfolio1.png' text='My Portfolio' label='Bigger Project' path='/' />
-
-
-                            <div className='information'>
-                                <h4>My Portfolio</h4>
-                                <ul>
-                                    <ptext><br /><br />&emsp;My own portfolio that is compatible with phones<br /></ptext>
-                                    <ptext><br />&emsp;Focus on fullstack usage with React<br /></ptext>
-                                    <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
-                                </ul>
-
-                                <div className='info_figures'>
-
-                                    
-                                    <div className='figures'><i className="fa-brands fa-react"></i></div>
-                                    
-                                    <div className='figures'><i className="fa-brands fa-html5"></i></div>
-
-                                    <div className='figures'><i className='fa-brands fa-square-js'></i></div>
-
-                                    <div className='figures'><i className="fa-brands fa-sass"></i></div>
-
-                                    <div className='figures'><i className="fa-brands fa-git"></i></div>
-
-                                    
-                                </div>
-
-                            </div>
-
-
-                        </ul>
+                        
 
                     </div>
                 </div>
