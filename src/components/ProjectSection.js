@@ -83,12 +83,38 @@ function ProjectSection() {
                                 </div>
                             </div>
                         </ul>
+                        
 
+                        <ul className='cards__items'>
+                            <CardItem src='images/img-PandP.png' text='Philip & Pen' label='Bigger Project' path='https://philipandpen-46cf9.web.app' />
 
+                            <div className='information'>
+                                <h4>Philip & Pen</h4>
+                                <ul>
+                                    <ptext><br /><br />&emsp;A bookstore where you can log in and purchase books<br /></ptext>
+                                    <ptext><br />&emsp;Focus on fullstack, design and using React<br /></ptext>
+                                    <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
+                                </ul>
+
+                                <div className='info_figures'>
+                          
+                                    <div className='figures'><i className="fa-brands fa-react"></i></div>
+                                    
+                                    <div className='figures'><i className="fa-brands fa-html5"></i></div>
+
+                                    <div className='figures'><i className='fa-brands fa-square-js'></i></div>
+
+                                    <div className='figures'><i className="fa-brands fa-sass"></i></div>
+
+                                    <div className='figures'><i className="fa-brands fa-git"></i></div>
+                       
+                                </div>
+                            </div>
+                        </ul>
 
 
                         <ul className='cards__items'>
-                            <CardItem src='images/img-GoodGains.png' text='GoodGains' label='Bigger Project' path='https://goodgains-1202d.web.app' />
+                            <CardItem src='images/img-GoodGains.png' text='GoodGains' label='Small Project' path='https://goodgains-1202d.web.app' />
 
                             <div className='information'>
                                 <h4>GoodGains</h4>
