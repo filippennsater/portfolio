@@ -31,6 +31,7 @@
     margin-bottom: calc(-200px + 8vw);
 }
 .home-self {
+    background-color: white;
     position: absolute;
     margin-top: calc(-1200px + 7vw );
     width: calc(90px + 5vw);
