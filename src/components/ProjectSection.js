@@ -63,7 +63,8 @@ function ProjectSection() {
                             <div className='information'>
                                 <h4>My Portfolio</h4>
                                 <ul>
-                                    <ptext><br /><br />&emsp;My own portfolio that is compatible with phones<br /></ptext>
+                                    <ptext><br /><br />&emsp;My own portfolio showcasing my projects and who I am<br /></ptext>
+                                    <ptext><br />&emsp;Compatible with phones <i class="fa-solid fa-mobile-screen-button"></i><br /></ptext>
                                     <ptext><br />&emsp;Focus on fullstack and using React<br /></ptext>
                                     <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
                                 </ul>
@@ -92,6 +93,7 @@ function ProjectSection() {
                                 <h4>Philip & Pen</h4>
                                 <ul>
                                     <ptext><br /><br />&emsp;A bookstore where you can log in and purchase books<br /></ptext>
+                                    <ptext><br />&emsp;Compatible with phones <i class="fa-solid fa-mobile-screen-button"></i><br /></ptext>
                                     <ptext><br />&emsp;Focus on fullstack, design and using React<br /></ptext>
                                     <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
                                 </ul>
@@ -120,6 +122,7 @@ function ProjectSection() {
                                 <h4>GoodGains</h4>
                                 <ul>
                                     <ptext><br /><br />&emsp;A simple workout-website<br /></ptext>
+                                    <ptext><br />&emsp;Compatible with phones <i class="fa-solid fa-mobile-screen-button"></i><br /></ptext>
                                     <ptext><br />&emsp;Focus on styling and using React<br /></ptext>
                                     <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
                                 </ul>
