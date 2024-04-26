@@ -94,7 +94,7 @@ function ProjectSection() {
                                 <ul>
                                     <ptext><br /><br />&emsp;A bookstore where you can log in and purchase books<br /></ptext>
                                     <ptext><br />&emsp;Compatible with phones <i class="fa-solid fa-mobile-screen-button"></i><br /></ptext>
-                                    <ptext><br />&emsp;Focus on fullstack,database management, design and using React<br /></ptext>
+                                    <ptext><br />&emsp;Focus on database management, authentication and design<br /></ptext>
                                     <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
                                 </ul>
 
