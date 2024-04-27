@@ -73,21 +73,12 @@ function CVSection() {
                 <div className='pics__wrapper'>
 
                     <ul className='pics__items'>
-                        <PicItem src='images/CV/Page1.jpeg'/>
+                        <PicItem src='images/CV/Page1.jpg'/>
                     </ul>
 
                     <ul className='pics__items'>
-                        <PicItem src='images/CV/Page2.jpeg'/>
+                        <PicItem src='images/CV/Page2.jpg'/>
                     </ul>
-
-                    <ul className='pics__items'>
-                        <PicItem src='images/CV/Page3.jpeg'/>
-                    </ul>
-
-                    <ul className='pics__items'>
-                        <PicItem src='images/CV/Page4.jpeg'/>
-                    </ul>
-
 
                 </div>
             </div>     
