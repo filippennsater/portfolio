@@ -65,7 +65,7 @@ function ProjectSection() {
                                 <ul>
                                     <ptext><br /><br />&emsp;My own portfolio showcasing my projects and who I am<br /></ptext>
                                     <ptext><br />&emsp;Compatible with phones <i class="fa-solid fa-mobile-screen-button"></i><br /></ptext>
-                                    <ptext><br />&emsp;Focus on fullstack and using React<br /></ptext>
+                                    <ptext><br />&emsp;Focus: Fullstack and using React<br /></ptext>
                                     <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
                                 </ul>
 
@@ -94,8 +94,8 @@ function ProjectSection() {
                                 <ul>
                                     <ptext><br /><br />&emsp;A bookstore where you can log in and purchase books<br /></ptext>
                                     <ptext><br />&emsp;Compatible with phones <i class="fa-solid fa-mobile-screen-button"></i><br /></ptext>
-                                    <ptext><br />&emsp;Focus on database management, authentication and design<br /></ptext>
-                                    <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
+                                    <ptext><br />&emsp;Focus: Database management, authentication and design<br /></ptext>
+                                    <ptext><br />&emsp;Hosting, user-auth and database via google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
                                 </ul>
 
                                 <div className='info_figures'>
@@ -123,7 +123,7 @@ function ProjectSection() {
                                 <ul>
                                     <ptext><br /><br />&emsp;A simple workout-website<br /></ptext>
                                     <ptext><br />&emsp;Compatible with phones <i class="fa-solid fa-mobile-screen-button"></i><br /></ptext>
-                                    <ptext><br />&emsp;Focus on styling and using React<br /></ptext>
+                                    <ptext><br />&emsp;Focus: Styling and using React<br /></ptext>
                                     <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
                                 </ul>
 
@@ -153,7 +153,7 @@ function ProjectSection() {
                                 <h4>Designcase 1</h4>
                                 <ul>
                                     <ptext><br /><br />&emsp;A simple designcase<br /></ptext>
-                                    <ptext><br />&emsp;Focus on styling and using React<br /></ptext>
+                                    <ptext><br />&emsp;Focus: Styling and using React<br /></ptext>
                                     <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
                                 </ul>
 
@@ -183,7 +183,7 @@ function ProjectSection() {
                                 <h4>The Amazing Piano</h4>
                                 <ul>
                                     <ptext><br /><br />&emsp;A small website with an interactive piano (pc only)<br /></ptext>
-                                    <ptext><br />&emsp;Focus on usage of styling and javascripts<br /></ptext>
+                                    <ptext><br />&emsp;Focus: Usage of styling and javascripts<br /></ptext>
                                     <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
                                 </ul>
 
@@ -210,7 +210,7 @@ function ProjectSection() {
                                 <h4>Magic 8-ball</h4>
                                 <ul>
                                     <ptext><br /><br />&emsp;A small website that generate random answers<br /></ptext>
-                                    <ptext><br />&emsp;Focus on usage of styling and javascripts<br /></ptext>
+                                    <ptext><br />&emsp;Focus: Usage of styling and javascripts<br /></ptext>
                                     <ptext><br />&emsp;Hosted through google-firebase <i className="fa-solid fa-fire"></i><br /></ptext>
                                 </ul>
 
