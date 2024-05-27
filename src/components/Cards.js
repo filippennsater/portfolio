@@ -58,7 +58,7 @@ function Cards () {
 
                 <ul className='cards__items'>
                         <CardItem src='images/img-portfolio1.png' text='My Portfolio' label='Bigger Project' path='/' />
-                        <CardItem src='images/img-PandP.png' text='Philip & Pen' label='Bigger Project (unfinished)' path='https://philipandpen-46cf9.web.app' />
+                        <CardItem src='images/img-PandP.png' text='Philip & Pen' label='Bigger Project' path='https://philipandpen-46cf9.web.app' />
                         <CardItem src='images/loading.gif' text='MarketTracker (Coming soon)' label='Bigger Project' path='/projects' />
                     </ul>
 
