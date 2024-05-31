@@ -147,7 +147,7 @@ function Footer() {
             <h2>Social Media</h2>
             <Link to='https://www.linkedin.com/in/filip-penns%C3%A4ter-922508171/' target='_blank'>LinkedIn</Link>
             <Link to='https://github.com/filippennsater' target='_blank'>GitHub</Link>
-            <Link to='https://www.instagram.com/kira.and.minou/' target='_blank'>Instagram</Link>
+            <Link to='https://www.instagram.com/filippdev/' target='_blank'>Instagram</Link>
           </div>
 
         </div>
@@ -187,7 +187,7 @@ function Footer() {
 
             <Link
               className='social-icon-link instagram'
-              to='https://www.instagram.com/kira.and.minou/'
+              to='https://www.instagram.com/filippdev/'
               target='_blank'
               aria-label='Instagram'
             >
