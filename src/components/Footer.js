@@ -138,9 +138,9 @@ function Footer() {
 
           <div className='footer-link-items'>
             <h2>Rights</h2>
-            <Link to='https://github.com/filippennsater/portfolio' target='_blank'>Open source</Link>
-            <Link to='/'>AI created media</Link>
-            <Link to='/'>Terms of service</Link>
+            <Link to='https://opensource-7d53e.web.app' target='_blank'>Open source</Link>
+            <Link to='https://mediainformation-ca3b9.web.app' target='_blank'>AI created media</Link>
+            <Link to='https://userinformation-76154.web.app' target='_blank'>ToS and PP</Link>
           </div>
 
           <div className='footer-link-items'>
