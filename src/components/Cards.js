@@ -63,7 +63,7 @@ function Cards () {
                     </ul>
 
                     <ul className='cards__items'>
-                        <CardItem src='images/img-SPwebsite.png' text='SP Therapy (in progress)' label='Small project' path='https://spweb-5d218.web.app/' />
+                        <CardItem src='images/img-SPwebsite.png' text='SP Therapy' label='Small project' path='https://spweb-5d218.web.app/' />
                         <CardItem src='images/img-GoodGains.png' text='GoodGains' label='Small project' path='https://goodgains-1202d.web.app' />
                     </ul>
 
