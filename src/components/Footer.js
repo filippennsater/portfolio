@@ -14,7 +14,7 @@ export const ThemeContext = createContext(null);
 
 function Footer() {
 
-  const[theS, setTheS] = useState("notSent");
+  const [theS, setTheS] = useState("notSent");
 
   const form = useRef();
 
@@ -28,7 +28,7 @@ function Footer() {
         console.log(error.text);
       });
 
-    
+
     setTheS("sent");
     resetForm();
 
@@ -97,14 +97,14 @@ function Footer() {
 
             <Button buttonStyle='btn--outline' buttonSize='btn--medium' type="submit" value="Send">Send</Button>
           </form>
-          
+
 
         </div>
 
 
-        <ThemeContext.Provider value={{theS, resetForm}}>
+        <ThemeContext.Provider value={{ theS, resetForm }}>
 
-        <div className='confText' id={`${theS}`}><br />Message sent ✓</div>
+          <div className='confText' id={`${theS}`}><br />Message sent ✓</div>
 
         </ThemeContext.Provider>
 
