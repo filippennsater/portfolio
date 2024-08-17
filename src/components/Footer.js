@@ -133,7 +133,7 @@ function Footer() {
             <div className='confText'><br />Message sent ✓</div>
           )}
           {error && (
-            <div className='errorText'><br />Inputs are incorrect, please try again.</div>
+            <div className='errorText'><br />Inputs are incorrect or missing, please try again.</div>
           )}
         </ThemeContext.Provider>
       </section>
