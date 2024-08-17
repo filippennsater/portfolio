@@ -212,19 +212,17 @@
 
   .confText {
     color: green;
-    opacity: 0%;
+    opacity: 100%;
     font-style: italic;
   }
 
-  #notSent {
-    color: green;
-    opacity: 0%;
+  .errorText {
+    color: rgb(128, 0, 0);
+    opacity: 100%;
+    font-style: italic;
   }
 
-  #sent {
-    color: green;
-    opacity: 100%;
-  }
+
   
   .blink_me {
     color: green;
