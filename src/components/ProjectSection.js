@@ -116,7 +116,7 @@ function ProjectSection() {
 
 
                         <ul className='cards__items'>
-                            <CardItem src='images/img-SPwebsite.png' text='SP Therapy' label='Small Project' path='https://spweb-5d218.web.app/' />
+                            <CardItem src='images/img-SPwebsite.png' text='SP Therapy' label='Small Project' path='https://spterapi.web.app/' />
 
                             <div className='information'>
                                 <h4>SP Therapy</h4>
@@ -174,7 +174,7 @@ function ProjectSection() {
 
 
 
-
+{/*
                         <ul className='cards__items'>
                             <CardItem src='images/img-DesignCase1.png' text='Designcase 1' label='Small project' path='https://designcase1-6b885.web.app/' />
 
@@ -258,7 +258,7 @@ function ProjectSection() {
                         </ul>
 
 
-                        
+*/}
 
                     </div>
                 </div>
