@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import CardItem from '../../CardItem';
-import './Cards.css';
+import './CardsSection.css';
 import { createContext } from 'react';
 
 export const ThemeContext = createContext(null);
