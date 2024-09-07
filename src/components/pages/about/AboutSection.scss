@@ -39,13 +39,13 @@
     overflow: hidden;
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
     
-    background: url('../../public/images/port1.jpg') center center/cover no-repeat;
+    background: url('../../../../public/images/port1.jpg') center center/cover no-repeat;
 
     animation: blob 10s ease-in-out infinite;
 }
 
 .avatar:hover{
-  background: url('../../public/images/port4.jpg') center center/cover no-repeat;
+  background: url('../../../../public/images/port4.jpg') center center/cover no-repeat;
 }
  
   @keyframes blob {

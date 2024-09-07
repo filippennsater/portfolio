@@ -7,7 +7,7 @@ import ScrollToTop from './ScrollToTop';
 import Home from './components/pages/Home';
 import Projects from './components/pages/Projects';
 import CV from './components/pages/Cv';
-import About from './components/pages/About';
+import About from './components/pages/about/About';
 import Contact from './components/pages/Contact';
 
 

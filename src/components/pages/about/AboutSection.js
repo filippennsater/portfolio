@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '../App.css';
+import '../../../App.css';
 import './AboutSection.scss';
-import './Navbar.jsx';
+import '../../Navbar.jsx';
 import { createContext } from 'react';
 
 export const ThemeContext = createContext(null);
