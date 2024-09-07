@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '../App.css';
+import '../../../App.css';
 import './CVSection.css';
-import PicItem from './PicItem';
+import PicItem from '../../PicItem';
 import { createContext } from 'react';
 
 export const ThemeContext = createContext(null);
