@@ -112,6 +112,10 @@
 
 @media screen and (max-width: 768px) {
 
+    .home-self{
+        border: 2px white solid;
+    }
+
 
     .btn-mobile {
         display: block;
