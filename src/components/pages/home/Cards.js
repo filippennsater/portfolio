@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CardItem from './CardItem';
+import CardItem from '../../CardItem';
 import './Cards.css';
 import { createContext } from 'react';
 

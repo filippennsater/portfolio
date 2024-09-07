@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import ScrollToTop from './ScrollToTop';
 
-import Home from './components/pages/Home';
-import Projects from './components/pages/Projects';
+import Home from './components/pages/home/Home';
+import Projects from './components/pages/projects/Projects';
 import CV from './components/pages/cv/Cv';
 import About from './components/pages/about/About';
 import Contact from './components/pages/contact/Contact';
