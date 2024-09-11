@@ -79,12 +79,12 @@
 }
 
 #light iconPhone {
-    color: rgb(0, 119, 26);
+    color: rgb(27, 131, 50);
     font-size: calc(30px + 1vw);
 }
 
 #light iconMail {
-    color: rgb(7, 0, 105);
+    color: rgb(40, 28, 218);
     font-size: calc(30px + 1vw);
 }
 
@@ -105,12 +105,12 @@
 }
 
 #dark iconPhone {
-    color: rgb(0, 119, 26);
+    color: rgb(27, 131, 50);
     font-size: calc(30px + 1vw);
 }
 
 #dark iconMail {
-    color: rgb(11, 0, 170);
+    color: rgb(40, 28, 218);
     font-size: calc(30px + 1vw);
 }
 
