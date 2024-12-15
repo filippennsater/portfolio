@@ -57,9 +57,9 @@ function Cards () {
                 <div className='cards__wrapper'>
 
                 <ul className='cards__items'>
-                        <CardItem src='images/img-portfolio1.png' text='My Portfolio' label='Bigger Project' path='/' />
-                        <CardItem src='images/img-PandP.png' text='Philip & Pen' label='Bigger Project' path='https://philipandpen-46cf9.web.app' />
-                        <CardItem src='images/loading.gif' text='MarketTracker (Coming soon)' label='Bigger Project' path='/projects' />
+                        <CardItem src='images/img-portfolio1.png' text='My Portfolio' label='Larger Project' path='/' />
+                        <CardItem src='images/img-PandP.png' text='Philip & Pen' label='Larger Project' path='https://philipandpen-46cf9.web.app' />
+                        <CardItem src='images/img-GovCare.png' text='GovCare' label='Larger Project' path='https://govcare-e07ef.web.app' />
                     </ul>
 
                     <ul className='cards__items'>
